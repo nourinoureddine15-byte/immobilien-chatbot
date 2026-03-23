@@ -1,137 +1,181 @@
+"""
+╔══════════════════════════════════════════════════════════════════╗
+║  Immo-Frisch KI-Bewertungsmodul                                 ║
+║  Random Forest Preisschätzung + automatische Exposé-Erstellung  ║
+║  Trainiert auf 800 Immobilien in NRW & Umgebung (Q1/2026)      ║
+╚══════════════════════════════════════════════════════════════════╝
+"""
+
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import json
+import os
 
 
-# --------------------------------------------------
+# ------------------------------------------------------------------
 # Hilfsfunktionen
-# --------------------------------------------------
+# ------------------------------------------------------------------
 
 def yn_to_de(value: str) -> str:
-    """Konvertiert yes/no -> Ja/Nein für die Ausgabe."""
-    value = value.strip().lower()
-    if value == "yes":
+    """yes/no → Ja/Nein (für Anzeige)."""
+    v = value.strip().lower()
+    if v == "yes":
         return "Ja"
-    if value == "no":
+    if v == "no":
         return "Nein"
-    return value  # falls etwas anderes eingegeben wurde
+    return value
 
 
 def normalize_yes_no(value: str) -> str:
-    """Normalisiert ja/yes/nein/no/y/n -> 'yes' oder 'no'."""
-    value = value.strip().lower()
-    if value in ["ja", "yes", "y", "j"]:
+    """ja/yes/nein/no/y/n/j → 'yes' oder 'no'."""
+    v = value.strip().lower()
+    if v in ("ja", "yes", "y", "j"):
         return "yes"
-    if value in ["nein", "no", "n"]:
+    if v in ("nein", "no", "n"):
         return "no"
     return value
 
 
-# --------------------------------------------------
-# 1. Preismodell auf dem Kaggle-Datensatz trainieren
-# --------------------------------------------------
+def normalize_furnishing(value: str) -> str:
+    """Möblierung normalisieren (auch deutsche Eingaben)."""
+    v = value.strip().lower()
+    mapping = {
+        "möbliert": "furnished", "voll möbliert": "furnished",
+        "furnished": "furnished",
+        "teilmöbliert": "semi-furnished", "teil möbliert": "semi-furnished",
+        "semi-furnished": "semi-furnished", "semi": "semi-furnished",
+        "unmöbliert": "unfurnished", "un möbliert": "unfurnished",
+        "unfurnished": "unfurnished", "leer": "unfurnished",
+    }
+    return mapping.get(v, "unfurnished")
+
+
+# ------------------------------------------------------------------
+# PLZ → Ort Zuordnung (aus Trainingsdaten)
+# ------------------------------------------------------------------
+
+PLZ_ORT_MAP = {}  # wird beim Training gefüllt
+
+
+def plz_to_ort(plz: str) -> str:
+    """Findet den Ort zur PLZ aus den Trainingsdaten."""
+    plz = str(plz).strip()
+    if plz in PLZ_ORT_MAP:
+        return PLZ_ORT_MAP[plz]
+    # Fallback: PLZ-Bereich prüfen (erste 2-3 Stellen)
+    for prefix_len in (4, 3, 2):
+        prefix = plz[:prefix_len]
+        matches = [o for p, o in PLZ_ORT_MAP.items() if p.startswith(prefix)]
+        if matches:
+            return max(set(matches), key=matches.count)
+    return "Bonn Zentrum"  # Default für Immo-Frisch Kerngebiet
+
+
+# ------------------------------------------------------------------
+# 1. Preismodell trainieren
+# ------------------------------------------------------------------
+
+FEATURE_COLS = [
+    "area", "bedrooms", "bathrooms", "stories", "parking",
+    "mainroad", "guestroom", "basement", "hotwaterheating",
+    "airconditioning", "prefarea", "furnishingstatus", "ort",
+]
+
 
 def train_price_model():
-    # CSV wie aus dem Browser gespeichert
-    data = pd.read_csv("kaggle_housing.csv")
+    """Trainiert Random Forest auf NRW-Immobiliendaten."""
+
+    global PLZ_ORT_MAP
+
+    csv_path = os.path.join(os.path.dirname(__file__) or ".", "kaggle_housing.csv")
+    data = pd.read_csv(csv_path)
+
+    # PLZ → Ort Mapping aufbauen
+    for _, row in data[["plz", "ort"]].drop_duplicates().iterrows():
+        PLZ_ORT_MAP[str(row["plz"])] = row["ort"]
 
     # Zielvariable
     y = data["price"]
 
-    # Features laut Kaggle
-    X = data[
-        [
-            "area",
-            "bedrooms",
-            "bathrooms",
-            "stories",
-            "parking",
-            "mainroad",
-            "guestroom",
-            "basement",
-            "hotwaterheating",
-            "airconditioning",
-            "prefarea",
-            "furnishingstatus",
-        ]
-    ]
-
-    # Kategorische Variablen in Dummy-Spalten umwandeln
+    # Features (ort als kategorische Variable → One-Hot-Encoding)
+    X = data[FEATURE_COLS].copy()
     X = pd.get_dummies(X)
 
-    # Train/Test-Split (für realistische Einschätzung)
+    # Train/Test Split
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.25, random_state=42
+        X, y, test_size=0.2, random_state=42
     )
 
     model = RandomForestRegressor(
-        n_estimators=300,
+        n_estimators=350,
+        max_depth=None,
+        min_samples_split=3,
+        min_samples_leaf=2,
         random_state=42,
         n_jobs=-1,
     )
     model.fit(X_train, y_train)
 
+    # Performance ausgeben
+    score = model.score(X_test, y_test)
+    print(f"   Modell R²-Score: {score:.2%}")
+
     return model, X.columns
 
 
-# --------------------------------------------------
-# 2. Preis für neues Objekt schätzen (Kaggle-Features)
-# --------------------------------------------------
+# ------------------------------------------------------------------
+# 2. Preis schätzen
+# ------------------------------------------------------------------
 
-def estimate_price(model, feature_columns, input_data):
-    row = pd.DataFrame(
-        [[
-            input_data["area"],
-            input_data["bedrooms"],
-            input_data["bathrooms"],
-            input_data["stories"],
-            input_data["parking"],
-            input_data["mainroad"],
-            input_data["guestroom"],
-            input_data["basement"],
-            input_data["hotwaterheating"],
-            input_data["airconditioning"],
-            input_data["prefarea"],
-            input_data["furnishingstatus"],
-        ]],
-        columns=[
-            "area",
-            "bedrooms",
-            "bathrooms",
-            "stories",
-            "parking",
-            "mainroad",
-            "guestroom",
-            "basement",
-            "hotwaterheating",
-            "airconditioning",
-            "prefarea",
-            "furnishingstatus",
-        ],
-    )
+def estimate_price(model, feature_columns, input_data: dict) -> float:
+    """Schätzt den Preis für eine Immobilie."""
 
-    # dieselbe One-Hot-Encoding-Logik wie beim Training
+    # Ort aus PLZ ermitteln, falls nicht direkt vorhanden
+    ort = input_data.get("ort_modell")
+    if not ort:
+        plz = str(input_data.get("plz", ""))
+        ort = plz_to_ort(plz) if plz else "Bonn Zentrum"
+
+    row = pd.DataFrame([{
+        "area":             float(input_data["area"]),
+        "bedrooms":         int(input_data["bedrooms"]),
+        "bathrooms":        int(input_data["bathrooms"]),
+        "stories":          int(input_data["stories"]),
+        "parking":          int(input_data["parking"]),
+        "mainroad":         input_data["mainroad"],
+        "guestroom":        input_data["guestroom"],
+        "basement":         input_data["basement"],
+        "hotwaterheating":  input_data["hotwaterheating"],
+        "airconditioning":  input_data["airconditioning"],
+        "prefarea":         input_data["prefarea"],
+        "furnishingstatus": input_data["furnishingstatus"],
+        "ort":              ort,
+    }])
+
     row = pd.get_dummies(row)
     row = row.reindex(columns=feature_columns, fill_value=0)
 
     price = model.predict(row)[0]
-    return price
+    return max(price, 0)
 
 
-# --------------------------------------------------
-# 3. Deutsche Beschreibung generieren (regelbasiert)
-# --------------------------------------------------
+# ------------------------------------------------------------------
+# 3. Professionelles Exposé generieren
+# ------------------------------------------------------------------
 
-def generate_description(input_data, price: float):
-    ort = input_data["ort"]
-    objektart = input_data["objektart"]
-    zimmer = input_data["bedrooms"]
-    wohnflaeche = input_data["area"]
-    badezimmer = input_data["bathrooms"]
-    stories = input_data["stories"]
-    parking = input_data["parking"]
-    furnishingstatus = input_data["furnishingstatus"]
+def generate_description(input_data: dict, price: float) -> dict:
+    """Erstellt ein professionelles Immobilien-Exposé auf Deutsch."""
+
+    ort = input_data.get("ort", "")
+    plz = input_data.get("plz", "")
+    objektart = input_data.get("objektart", "Immobilie")
+    area = float(input_data["area"])
+    zimmer = int(input_data["bedrooms"])
+    badezimmer = int(input_data["bathrooms"])
+    stories = int(input_data["stories"])
+    parking = int(input_data["parking"])
+    furnishing = input_data["furnishingstatus"]
     mainroad = input_data["mainroad"]
     prefarea = input_data["prefarea"]
     guestroom = input_data["guestroom"]
@@ -139,174 +183,176 @@ def generate_description(input_data, price: float):
     hotwaterheating = input_data["hotwaterheating"]
     airconditioning = input_data["airconditioning"]
 
-    # Titel – Objektart dynamisch
-    titel = f"Attraktive Immobilie ({objektart}) mit {zimmer} Zimmern in {ort.title()}"
+    # Ort-Anzeige mit PLZ
+    ort_display = ort.strip().title() if ort else "NRW"
+    if plz:
+        adresse_display = f"{plz} {ort_display}"
+    else:
+        adresse_display = ort_display
 
-    # Kurzbeschreibung – Objektart erwähnt, ohne Grammatikstress
+    # ── Titel ─────────────────────────────────────────────────────
+    if objektart.lower() in ("wohnung", "eigentumswohnung"):
+        typ_text = "Gepflegte Eigentumswohnung"
+    elif objektart.lower() in ("einfamilienhaus", "efh", "haus"):
+        typ_text = "Charmantes Einfamilienhaus"
+    elif objektart.lower() in ("villa",):
+        typ_text = "Repräsentative Villa"
+    elif objektart.lower() in ("reihenhaus",):
+        typ_text = "Modernes Reihenhaus"
+    elif objektart.lower() in ("doppelhaushälfte", "dhh"):
+        typ_text = "Attraktive Doppelhaushälfte"
+    elif objektart.lower() in ("bungalow",):
+        typ_text = "Komfortabler Bungalow"
+    elif objektart.lower() in ("penthouse",):
+        typ_text = "Exklusives Penthouse"
+    else:
+        typ_text = f"Attraktive Immobilie ({objektart})"
+
+    titel = f"{typ_text} mit {zimmer} Zimmern in {adresse_display}"
+
+    # ── Kurzbeschreibung ──────────────────────────────────────────
+    etagen_text = f"über {stories} Etagen" if stories > 1 else "auf einer Ebene"
+
+    moebel_map = {
+        "furnished":      "voll möbliert",
+        "semi-furnished": "teilmöbliert",
+        "unfurnished":    "unmöbliert",
+    }
+    moebel_text = moebel_map.get(furnishing, "unmöbliert")
+
+    park_text = ""
+    if parking == 1:
+        park_text = " Ein Stellplatz ist vorhanden."
+    elif parking > 1:
+        park_text = f" Es stehen {parking} Stellplätze zur Verfügung."
+
+    keller_text = " Ein Keller bietet zusätzlichen Stauraum." if basement == "yes" else ""
+    klima_text = " Eine Klimaanlage sorgt für angenehmes Raumklima." if airconditioning == "yes" else ""
+    gaeste_text = " Ein separates Gästezimmer rundet das Angebot ab." if guestroom == "yes" else ""
+
     kurzbeschreibung = (
-        f"Angeboten wird eine gepflegte Immobilie ({objektart.lower()}) mit ca. "
-        f"{int(wohnflaeche)} m² Wohnfläche, {zimmer} Schlafzimmern und "
-        f"{badezimmer} Badezimmer(n). Das Objekt verfügt über {stories} Etage(n) "
-        f"und {parking} Parkplatz/Parkplätze."
+        f"Diese gepflegte Immobilie in {adresse_display} bietet "
+        f"ca. {int(area)} m² Wohnfläche {etagen_text}. "
+        f"Die {zimmer} Schlafzimmer und {badezimmer} Badezimmer "
+        f"sind {moebel_text}."
+        f"{park_text}{keller_text}{klima_text}{gaeste_text}"
     )
 
-    # Möblierungstext
-    if furnishingstatus == "furnished":
-        ausstattung = "voll möbliert"
-    elif furnishingstatus == "semi-furnished":
-        ausstattung = "teilmöbliert"
-    else:
-        ausstattung = "unmöbliert"
+    # ── Highlights ────────────────────────────────────────────────
+    highlights = []
+    highlights.append(f"{int(area)} m² Wohnfläche")
+    highlights.append(f"{zimmer} Schlafzimmer · {badezimmer} Bad")
 
-    kurzbeschreibung += f" Die Ausstattung ist {ausstattung}."
-
-    # Highlights-Liste
-    highlights = [
-        f"{int(wohnflaeche)} m² Wohnfläche",
-        f"{zimmer} Schlafzimmer",
-        f"{badezimmer} Badezimmer",
-        f"{stories} Etage(n)",
-    ]
+    if stories > 1:
+        highlights.append(f"{stories} Etagen")
 
     if parking > 0:
-        highlights.append(f"{parking} Parkplatz/Parkplätze")
+        highlights.append(f"{parking} Stellplatz{'e' if parking > 1 else ''}")
 
-    if mainroad == "yes":
-        highlights.append("Gute Erreichbarkeit durch Nähe zur Hauptstraße")
-    else:
-        highlights.append("Ruhigere Lage abseits der Hauptstraße")
-
-    if guestroom == "yes":
-        highlights.append("Separates Gästezimmer")
     if basement == "yes":
         highlights.append("Keller vorhanden")
+
     if hotwaterheating == "yes":
-        highlights.append("Warmwasserheizung")
+        highlights.append("Zentralheizung")
+
     if airconditioning == "yes":
         highlights.append("Klimaanlage")
 
-    # Lage-Text
+    if guestroom == "yes":
+        highlights.append("Gästezimmer")
+
+    if mainroad == "yes":
+        highlights.append("Verkehrsgünstige Lage")
+    else:
+        highlights.append("Ruhige Wohnlage")
+
+    if prefarea == "yes":
+        highlights.append("Bevorzugte Wohnlage")
+
+    # ── Lage & Markt ──────────────────────────────────────────────
+    preis_pro_qm = price / area if area > 0 else 0
+
     if prefarea == "yes":
         lage_text = (
-            f"Das Objekt liegt in einer bevorzugten Wohnlage von {ort.title()} "
-            f"mit guter Infrastruktur und attraktiver Umgebung."
+            f"Das Objekt befindet sich in einer begehrten Wohnlage "
+            f"von {ort_display} mit hervorragender Infrastruktur, "
+            f"guter Anbindung an den ÖPNV und attraktiver Nachbarschaft. "
         )
     else:
         lage_text = (
-            f"Die Lage in {ort.title()} bietet eine solide Infrastruktur "
-            f"und eine gute Anbindung an das Umland."
+            f"Die Lage in {ort_display} überzeugt durch eine solide "
+            f"Infrastruktur und gute Anbindung an das Umland. "
         )
 
-    # Preis formatiert & numerisch
-    preis_euro = round(price, 2)
-    preis_formatiert = f"{round(price):,} €".replace(",", ".")
+    lage_text += (
+        f"Der geschätzte Quadratmeterpreis liegt bei "
+        f"ca. {round(preis_pro_qm):,} €/m².".replace(",", ".")
+    )
 
-    beschreibung = {
-        "titel": titel,
-        
-        "kurzbeschreibung": kurzbeschreibung,
-        "highlights": highlights,
-        "lage_und_markt": lage_text,
-        "geschaetzter_preis_euro": preis_euro,
-        "geschaetzter_preis": preis_formatiert,
+    # ── Preis formatieren ─────────────────────────────────────────
+    preis_gerundet = round(price / 1000) * 1000
+    preis_formatiert = f"{preis_gerundet:,.0f} €".replace(",", ".")
+
+    return {
+        "titel":                titel,
+        "kurzbeschreibung":     kurzbeschreibung,
+        "highlights":           highlights,
+        "lage_und_markt":       lage_text,
+        "geschaetzter_preis":   preis_formatiert,
+        "geschaetzter_preis_euro": round(price, 2),
+        "preis_pro_qm":        round(preis_pro_qm, 2),
+        "adresse":              adresse_display,
     }
 
-    return beschreibung
 
-
-# --------------------------------------------------
-# 4. Hauptprogramm: Eingaben + JSON-Ausgabe
-# --------------------------------------------------
+# ------------------------------------------------------------------
+# 4. Hauptprogramm (Standalone-Modus)
+# ------------------------------------------------------------------
 
 def main():
-    print(">>> Kaggle-Preismodell wird trainiert...")
+    print("\n🏠 Immo-Frisch KI-Bewertung wird gestartet...")
+    print("   Trainiere Modell auf NRW-Immobiliendaten...")
     model, feature_columns = train_price_model()
-    print("Fertig.\n")
+    print("   ✅ Modell bereit.\n")
 
-    print("--- Bitte Immobiliendaten eingeben ---")
+    print("─" * 50)
+    print("  Bitte geben Sie die Immobiliendaten ein:")
+    print("─" * 50)
+
     input_data = {}
 
-    # Basisdaten für Beschreibung & Kontakt
-    input_data["strasse"] = input("Straße: ")
-    input_data["hausnummer"] = input("Hausnummer: ")
-    input_data["ort"] = input("Ort (z.B. Berlin): ")
-    input_data["objektart"] = input(
-        "Objektart (z.B. Wohnung / Einfamilienhaus / Mehrfamilienhaus / Büro): "
-    ).strip()
-    input_data["telefon"] = input("Telefonnummer: ")
-    input_data["email"] = input("E-Mail: ")
+    input_data["plz"]       = input("📍 Postleitzahl: ").strip()
+    input_data["ort"]       = input("🏘  Ort (z.B. Bonn): ").strip()
+    input_data["objektart"] = input("🏠 Objektart (Wohnung/Einfamilienhaus/...): ").strip()
+    input_data["area"]      = float(input("📐 Wohnfläche in m²: "))
+    input_data["bedrooms"]  = int(input("🛏  Schlafzimmer: "))
+    input_data["bathrooms"] = int(input("🚿 Badezimmer: "))
+    input_data["stories"]   = int(input("🏗  Etagen: "))
+    input_data["parking"]   = int(input("🅿  Stellplätze: "))
 
-    # Kaggle-Features (müssen zu den Spalten passen!)
-    input_data["area"] = float(input("Wohnfläche (area) in m²: "))
-    input_data["bedrooms"] = int(input("Schlafzimmer (bedrooms): "))
-    input_data["bathrooms"] = int(input("Badezimmer (bathrooms): "))
-    input_data["stories"] = int(input("Etagen (stories): "))
-    input_data["parking"] = int(input("Parkplätze (parking): "))
+    input_data["mainroad"]        = normalize_yes_no(input("🛣  An Hauptstraße? (ja/nein): "))
+    input_data["guestroom"]       = normalize_yes_no(input("🛋  Gästezimmer? (ja/nein): "))
+    input_data["basement"]        = normalize_yes_no(input("🏚  Keller? (ja/nein): "))
+    input_data["hotwaterheating"] = normalize_yes_no(input("🔥 Zentralheizung? (ja/nein): "))
+    input_data["airconditioning"] = normalize_yes_no(input("❄  Klimaanlage? (ja/nein): "))
+    input_data["prefarea"]        = normalize_yes_no(input("⭐ Bevorzugte Lage? (ja/nein): "))
+    input_data["furnishingstatus"]= normalize_furnishing(
+        input("🪑 Möblierung (möbliert/teilmöbliert/unmöbliert): ")
+    )
 
-    input_data["mainroad"] = normalize_yes_no(
-        input("An Hauptstraße? (ja/nein): ")
-    )
-    input_data["guestroom"] = normalize_yes_no(
-        input("Gästezimmer? (ja/nein): ")
-    )
-    input_data["basement"] = normalize_yes_no(
-        input("Keller? (ja/nein): ")
-    )
-    input_data["hotwaterheating"] = normalize_yes_no(
-        input("Warmwasserheizung? (ja/nein): ")
-    )
-    input_data["airconditioning"] = normalize_yes_no(
-        input("Klimaanlage? (ja/nein): ")
-    )
-    input_data["prefarea"] = normalize_yes_no(
-        input("Bevorzugte Lage? (ja/nein): ")
-    )
-    input_data["furnishingstatus"] = input(
-        "Möblierung (furnished / semi-furnished / unfurnished): "
-    ).strip()
+    # Ort für Modell aus PLZ oder Eingabe
+    input_data["ort_modell"] = plz_to_ort(input_data["plz"]) if input_data["plz"] else None
 
-    # Preis schätzen
     price = estimate_price(model, feature_columns, input_data)
-
-    # Beschreibung erzeugen
     beschreibung = generate_description(input_data, price)
 
-    # JSON-Antwort bauen
-    response = {
-        "titel": beschreibung["titel"],
-        "kurzbeschreibung": beschreibung["kurzbeschreibung"],
-        "highlights": beschreibung["highlights"],
-        "lage_und_markt": beschreibung["lage_und_markt"],
-        "geschaetzter_preis": beschreibung["geschaetzter_preis"],
-        "geschaetzter_preis_euro": beschreibung["geschaetzter_preis_euro"],
-        "objektdaten": {
-            "adresse": f"{input_data['strasse'].strip()} "
-                       f"{input_data['hausnummer'].strip()}, "
-                       f"{input_data['ort'].title().strip()}",
-            "objektart": input_data["objektart"],
-            "wohnflaeche": f"{int(input_data['area'])} m²",
-            "schlafzimmer": input_data["bedrooms"],
-            "badezimmer": input_data["bathrooms"],
-            "etagen": input_data["stories"],
-            "parkplaetze": input_data["parking"],
-            "hauptstrasse": yn_to_de(input_data["mainroad"]),
-            "gaestezimmer": yn_to_de(input_data["guestroom"]),
-            "keller": yn_to_de(input_data["basement"]),
-            "warmwasserheizung": yn_to_de(input_data["hotwaterheating"]),
-            "klimaanlage": yn_to_de(input_data["airconditioning"]),
-            "bevorzugte_lage": yn_to_de(input_data["prefarea"]),
-            "moeblierung": input_data["furnishingstatus"],
-        },
-        "kontakt": {
-            "telefon": input_data["telefon"].strip(),
-            "email": input_data["email"].strip(),
-        },
-    }
+    print("\n" + "═" * 50)
+    print(f"  💰 Geschätzter Preis: {beschreibung['geschaetzter_preis']}")
+    print(f"  📊 Preis pro m²:     {beschreibung['preis_pro_qm']:,.0f} €/m²".replace(",", "."))
+    print("═" * 50)
 
-    print("\n--- JSON-Antwort ---")
-    print(json.dumps(response, ensure_ascii=False, indent=2))
+    print(json.dumps(beschreibung, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
     main()
-    

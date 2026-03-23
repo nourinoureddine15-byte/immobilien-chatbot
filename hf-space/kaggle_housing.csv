@@ -1,546 +1,801 @@
-price,area,bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishingstatus
-13300000,7420,4,2,3,yes,no,no,no,yes,2,yes,furnished
-12250000,8960,4,4,4,yes,no,no,no,yes,3,no,furnished
-12250000,9960,3,2,2,yes,no,yes,no,no,2,yes,semi-furnished
-12215000,7500,4,2,2,yes,no,yes,no,yes,3,yes,furnished
-11410000,7420,4,1,2,yes,yes,yes,no,yes,2,no,furnished
-10850000,7500,3,3,1,yes,no,yes,no,yes,2,yes,semi-furnished
-10150000,8580,4,3,4,yes,no,no,no,yes,2,yes,semi-furnished
-10150000,16200,5,3,2,yes,no,no,no,no,0,no,unfurnished
-9870000,8100,4,1,2,yes,yes,yes,no,yes,2,yes,furnished
-9800000,5750,3,2,4,yes,yes,no,no,yes,1,yes,unfurnished
-9800000,13200,3,1,2,yes,no,yes,no,yes,2,yes,furnished
-9681000,6000,4,3,2,yes,yes,yes,yes,no,2,no,semi-furnished
-9310000,6550,4,2,2,yes,no,no,no,yes,1,yes,semi-furnished
-9240000,3500,4,2,2,yes,no,no,yes,no,2,no,furnished
-9240000,7800,3,2,2,yes,no,no,no,no,0,yes,semi-furnished
-9100000,6000,4,1,2,yes,no,yes,no,no,2,no,semi-furnished
-9100000,6600,4,2,2,yes,yes,yes,no,yes,1,yes,unfurnished
-8960000,8500,3,2,4,yes,no,no,no,yes,2,no,furnished
-8890000,4600,3,2,2,yes,yes,no,no,yes,2,no,furnished
-8855000,6420,3,2,2,yes,no,no,no,yes,1,yes,semi-furnished
-8750000,4320,3,1,2,yes,no,yes,yes,no,2,no,semi-furnished
-8680000,7155,3,2,1,yes,yes,yes,no,yes,2,no,unfurnished
-8645000,8050,3,1,1,yes,yes,yes,no,yes,1,no,furnished
-8645000,4560,3,2,2,yes,yes,yes,no,yes,1,no,furnished
-8575000,8800,3,2,2,yes,no,no,no,yes,2,no,furnished
-8540000,6540,4,2,2,yes,yes,yes,no,yes,2,yes,furnished
-8463000,6000,3,2,4,yes,yes,yes,no,yes,0,yes,semi-furnished
-8400000,8875,3,1,1,yes,no,no,no,no,1,no,semi-furnished
-8400000,7950,5,2,2,yes,no,yes,yes,no,2,no,unfurnished
-8400000,5500,4,2,2,yes,no,yes,no,yes,1,yes,semi-furnished
-8400000,7475,3,2,4,yes,no,no,no,yes,2,no,unfurnished
-8400000,7000,3,1,4,yes,no,no,no,yes,2,no,semi-furnished
-8295000,4880,4,2,2,yes,no,no,no,yes,1,yes,furnished
-8190000,5960,3,3,2,yes,yes,yes,no,no,1,no,unfurnished
-8120000,6840,5,1,2,yes,yes,yes,no,yes,1,no,furnished
-8080940,7000,3,2,4,yes,no,no,no,yes,2,no,furnished
-8043000,7482,3,2,3,yes,no,no,yes,no,1,yes,furnished
-7980000,9000,4,2,4,yes,no,no,no,yes,2,no,furnished
-7962500,6000,3,1,4,yes,yes,no,no,yes,2,no,unfurnished
-7910000,6000,4,2,4,yes,no,no,no,yes,1,no,semi-furnished
-7875000,6550,3,1,2,yes,no,yes,no,yes,0,yes,furnished
-7840000,6360,3,2,4,yes,no,no,no,yes,0,yes,furnished
-7700000,6480,3,2,4,yes,no,no,no,yes,2,no,unfurnished
-7700000,6000,4,2,4,yes,no,no,no,no,2,no,semi-furnished
-7560000,6000,4,2,4,yes,no,no,no,yes,1,no,furnished
-7560000,6000,3,2,3,yes,no,no,no,yes,0,no,semi-furnished
-7525000,6000,3,2,4,yes,no,no,no,yes,1,no,furnished
-7490000,6600,3,1,4,yes,no,no,no,yes,3,yes,furnished
-7455000,4300,3,2,2,yes,no,yes,no,no,1,no,unfurnished
-7420000,7440,3,2,1,yes,yes,yes,no,yes,0,yes,semi-furnished
-7420000,7440,3,2,4,yes,no,no,no,no,1,yes,unfurnished
-7420000,6325,3,1,4,yes,no,no,no,yes,1,no,unfurnished
-7350000,6000,4,2,4,yes,yes,no,no,yes,1,no,furnished
-7350000,5150,3,2,4,yes,no,no,no,yes,2,no,semi-furnished
-7350000,6000,3,2,2,yes,yes,no,no,yes,1,no,semi-furnished
-7350000,6000,3,1,2,yes,no,no,no,yes,1,no,unfurnished
-7343000,11440,4,1,2,yes,no,yes,no,no,1,yes,semi-furnished
-7245000,9000,4,2,4,yes,yes,no,no,yes,1,yes,furnished
-7210000,7680,4,2,4,yes,yes,no,no,yes,1,no,semi-furnished
-7210000,6000,3,2,4,yes,yes,no,no,yes,1,no,furnished
-7140000,6000,3,2,2,yes,yes,no,no,no,1,no,semi-furnished
-7070000,8880,2,1,1,yes,no,no,no,yes,1,no,semi-furnished
-7070000,6240,4,2,2,yes,no,no,no,yes,1,no,furnished
-7035000,6360,4,2,3,yes,no,no,no,yes,2,yes,furnished
-7000000,11175,3,1,1,yes,no,yes,no,yes,1,yes,furnished
-6930000,8880,3,2,2,yes,no,yes,no,yes,1,no,furnished
-6930000,13200,2,1,1,yes,no,yes,yes,no,1,no,furnished
-6895000,7700,3,2,1,yes,no,no,no,no,2,no,unfurnished
-6860000,6000,3,1,1,yes,no,no,no,yes,1,no,furnished
-6790000,12090,4,2,2,yes,no,no,no,no,2,yes,furnished
-6790000,4000,3,2,2,yes,no,yes,no,yes,0,yes,semi-furnished
-6755000,6000,4,2,4,yes,no,no,no,yes,0,no,unfurnished
-6720000,5020,3,1,4,yes,no,no,no,yes,0,yes,unfurnished
-6685000,6600,2,2,4,yes,no,yes,no,no,0,yes,furnished
-6650000,4040,3,1,2,yes,no,yes,yes,no,1,no,furnished
-6650000,4260,4,2,2,yes,no,no,yes,no,0,no,semi-furnished
-6650000,6420,3,2,3,yes,no,no,no,yes,0,yes,furnished
-6650000,6500,3,2,3,yes,no,no,no,yes,0,yes,furnished
-6650000,5700,3,1,1,yes,yes,yes,no,yes,2,yes,furnished
-6650000,6000,3,2,3,yes,yes,no,no,yes,0,no,furnished
-6629000,6000,3,1,2,yes,no,no,yes,no,1,yes,semi-furnished
-6615000,4000,3,2,2,yes,no,yes,no,yes,1,no,semi-furnished
-6615000,10500,3,2,1,yes,no,yes,no,yes,1,yes,furnished
-6580000,6000,3,2,4,yes,no,no,no,yes,0,no,semi-furnished
-6510000,3760,3,1,2,yes,no,no,yes,no,2,no,semi-furnished
-6510000,8250,3,2,3,yes,no,no,no,yes,0,no,furnished
-6510000,6670,3,1,3,yes,no,yes,no,no,0,yes,unfurnished
-6475000,3960,3,1,1,yes,no,yes,no,no,2,no,semi-furnished
-6475000,7410,3,1,1,yes,yes,yes,no,yes,2,yes,unfurnished
-6440000,8580,5,3,2,yes,no,no,no,no,2,no,furnished
-6440000,5000,3,1,2,yes,no,no,no,yes,0,no,semi-furnished
-6419000,6750,2,1,1,yes,yes,yes,no,no,2,yes,furnished
-6405000,4800,3,2,4,yes,yes,no,no,yes,0,no,furnished
-6300000,7200,3,2,1,yes,no,yes,no,yes,3,no,semi-furnished
-6300000,6000,4,2,4,yes,no,no,no,no,1,no,semi-furnished
-6300000,4100,3,2,3,yes,no,no,no,yes,2,no,semi-furnished
-6300000,9000,3,1,1,yes,no,yes,no,no,1,yes,furnished
-6300000,6400,3,1,1,yes,yes,yes,no,yes,1,yes,semi-furnished
-6293000,6600,3,2,3,yes,no,no,no,yes,0,yes,unfurnished
-6265000,6000,4,1,3,yes,yes,yes,no,no,0,yes,unfurnished
-6230000,6600,3,2,1,yes,no,yes,no,yes,0,yes,unfurnished
-6230000,5500,3,1,3,yes,no,no,no,no,1,yes,unfurnished
-6195000,5500,3,2,4,yes,yes,no,no,yes,1,no,semi-furnished
-6195000,6350,3,2,3,yes,yes,no,no,yes,0,no,furnished
-6195000,5500,3,2,1,yes,yes,yes,no,no,2,yes,furnished
-6160000,4500,3,1,4,yes,no,no,no,yes,0,no,unfurnished
-6160000,5450,4,2,1,yes,no,yes,no,yes,0,yes,semi-furnished
-6125000,6420,3,1,3,yes,no,yes,no,no,0,yes,unfurnished
-6107500,3240,4,1,3,yes,no,no,no,no,1,no,semi-furnished
-6090000,6615,4,2,2,yes,yes,no,yes,no,1,no,semi-furnished
-6090000,6600,3,1,1,yes,yes,yes,no,no,2,yes,semi-furnished
-6090000,8372,3,1,3,yes,no,no,no,yes,2,no,unfurnished
-6083000,4300,6,2,2,yes,no,no,no,no,0,no,furnished
-6083000,9620,3,1,1,yes,no,yes,no,no,2,yes,furnished
-6020000,6800,2,1,1,yes,yes,yes,no,no,2,no,furnished
-6020000,8000,3,1,1,yes,yes,yes,no,yes,2,yes,semi-furnished
-6020000,6900,3,2,1,yes,yes,yes,no,no,0,yes,unfurnished
-5950000,3700,4,1,2,yes,yes,no,no,yes,0,no,furnished
-5950000,6420,3,1,1,yes,no,yes,no,yes,0,yes,furnished
-5950000,7020,3,1,1,yes,no,yes,no,yes,2,yes,semi-furnished
-5950000,6540,3,1,1,yes,yes,yes,no,no,2,yes,furnished
-5950000,7231,3,1,2,yes,yes,yes,no,yes,0,yes,semi-furnished
-5950000,6254,4,2,1,yes,no,yes,no,no,1,yes,semi-furnished
-5950000,7320,4,2,2,yes,no,no,no,no,0,no,furnished
-5950000,6525,3,2,4,yes,no,no,no,no,1,no,furnished
-5943000,15600,3,1,1,yes,no,no,no,yes,2,no,semi-furnished
-5880000,7160,3,1,1,yes,no,yes,no,no,2,yes,unfurnished
-5880000,6500,3,2,3,yes,no,no,no,yes,0,no,unfurnished
-5873000,5500,3,1,3,yes,yes,no,no,yes,1,no,furnished
-5873000,11460,3,1,3,yes,no,no,no,no,2,yes,semi-furnished
-5866000,4800,3,1,1,yes,yes,yes,no,no,0,no,unfurnished
-5810000,5828,4,1,4,yes,yes,no,no,no,0,no,semi-furnished
-5810000,5200,3,1,3,yes,no,no,no,yes,0,no,semi-furnished
-5810000,4800,3,1,3,yes,no,no,no,yes,0,no,unfurnished
-5803000,7000,3,1,1,yes,no,yes,no,no,2,yes,semi-furnished
-5775000,6000,3,2,4,yes,no,no,no,yes,0,no,unfurnished
-5740000,5400,4,2,2,yes,no,no,no,yes,2,no,unfurnished
-5740000,4640,4,1,2,yes,no,no,no,no,1,no,semi-furnished
-5740000,5000,3,1,3,yes,no,no,no,yes,0,no,semi-furnished
-5740000,6360,3,1,1,yes,yes,yes,no,yes,2,yes,furnished
-5740000,5800,3,2,4,yes,no,no,no,yes,0,no,unfurnished
-5652500,6660,4,2,2,yes,yes,yes,no,no,1,yes,semi-furnished
-5600000,10500,4,2,2,yes,no,no,no,no,1,no,semi-furnished
-5600000,4800,5,2,3,no,no,yes,yes,no,0,no,unfurnished
-5600000,4700,4,1,2,yes,yes,yes,no,yes,1,no,furnished
-5600000,5000,3,1,4,yes,no,no,no,no,0,no,furnished
-5600000,10500,2,1,1,yes,no,no,no,no,1,no,semi-furnished
-5600000,5500,3,2,2,yes,no,no,no,no,1,no,semi-furnished
-5600000,6360,3,1,3,yes,no,no,no,no,0,yes,semi-furnished
-5600000,6600,4,2,1,yes,no,yes,no,no,0,yes,semi-furnished
-5600000,5136,3,1,2,yes,yes,yes,no,yes,0,yes,unfurnished
-5565000,4400,4,1,2,yes,no,no,no,yes,2,yes,semi-furnished
-5565000,5400,5,1,2,yes,yes,yes,no,yes,0,yes,furnished
-5530000,3300,3,3,2,yes,no,yes,no,no,0,no,semi-furnished
-5530000,3650,3,2,2,yes,no,no,no,no,2,no,semi-furnished
-5530000,6100,3,2,1,yes,no,yes,no,no,2,yes,furnished
-5523000,6900,3,1,1,yes,yes,yes,no,no,0,yes,semi-furnished
-5495000,2817,4,2,2,no,yes,yes,no,no,1,no,furnished
-5495000,7980,3,1,1,yes,no,no,no,no,2,no,semi-furnished
-5460000,3150,3,2,1,yes,yes,yes,no,yes,0,no,furnished
-5460000,6210,4,1,4,yes,yes,no,no,yes,0,no,furnished
-5460000,6100,3,1,3,yes,yes,no,no,yes,0,yes,semi-furnished
-5460000,6600,4,2,2,yes,yes,yes,no,no,0,yes,semi-furnished
-5425000,6825,3,1,1,yes,yes,yes,no,yes,0,yes,semi-furnished
-5390000,6710,3,2,2,yes,yes,yes,no,no,1,yes,furnished
-5383000,6450,3,2,1,yes,yes,yes,yes,no,0,no,unfurnished
-5320000,7800,3,1,1,yes,no,yes,no,yes,2,yes,unfurnished
-5285000,4600,2,2,1,yes,no,no,no,yes,2,no,semi-furnished
-5250000,4260,4,1,2,yes,no,yes,no,yes,0,no,furnished
-5250000,6540,4,2,2,no,no,no,no,yes,0,no,semi-furnished
-5250000,5500,3,2,1,yes,no,yes,no,no,0,no,semi-furnished
-5250000,10269,3,1,1,yes,no,no,no,no,1,yes,semi-furnished
-5250000,8400,3,1,2,yes,yes,yes,no,yes,2,yes,unfurnished
-5250000,5300,4,2,1,yes,no,no,no,yes,0,yes,unfurnished
-5250000,3800,3,1,2,yes,yes,yes,no,no,1,yes,unfurnished
-5250000,9800,4,2,2,yes,yes,no,no,no,2,no,semi-furnished
-5250000,8520,3,1,1,yes,no,no,no,yes,2,no,furnished
-5243000,6050,3,1,1,yes,no,yes,no,no,0,yes,semi-furnished
-5229000,7085,3,1,1,yes,yes,yes,no,no,2,yes,semi-furnished
-5215000,3180,3,2,2,yes,no,no,no,no,2,no,semi-furnished
-5215000,4500,4,2,1,no,no,yes,no,yes,2,no,semi-furnished
-5215000,7200,3,1,2,yes,yes,yes,no,no,1,yes,furnished
-5145000,3410,3,1,2,no,no,no,no,yes,0,no,semi-furnished
-5145000,7980,3,1,1,yes,no,no,no,no,1,yes,semi-furnished
-5110000,3000,3,2,2,yes,yes,yes,no,no,0,no,furnished
-5110000,3000,3,1,2,yes,no,yes,no,no,0,no,unfurnished
-5110000,11410,2,1,2,yes,no,no,no,no,0,yes,furnished
-5110000,6100,3,1,1,yes,no,yes,no,yes,0,yes,semi-furnished
-5075000,5720,2,1,2,yes,no,no,no,yes,0,yes,unfurnished
-5040000,3540,2,1,1,no,yes,yes,no,no,0,no,semi-furnished
-5040000,7600,4,1,2,yes,no,no,no,yes,2,no,furnished
-5040000,10700,3,1,2,yes,yes,yes,no,no,0,no,semi-furnished
-5040000,6600,3,1,1,yes,yes,yes,no,no,0,yes,furnished
-5033000,4800,2,1,1,yes,yes,yes,no,no,0,no,semi-furnished
-5005000,8150,3,2,1,yes,yes,yes,no,no,0,no,semi-furnished
-4970000,4410,4,3,2,yes,no,yes,no,no,2,no,semi-furnished
-4970000,7686,3,1,1,yes,yes,yes,yes,no,0,no,semi-furnished
-4956000,2800,3,2,2,no,no,yes,no,yes,1,no,semi-furnished
-4935000,5948,3,1,2,yes,no,no,no,yes,0,no,semi-furnished
-4907000,4200,3,1,2,yes,no,no,no,no,1,no,furnished
-4900000,4520,3,1,2,yes,no,yes,no,yes,0,no,semi-furnished
-4900000,4095,3,1,2,no,yes,yes,no,yes,0,no,semi-furnished
-4900000,4120,2,1,1,yes,no,yes,no,no,1,no,semi-furnished
-4900000,5400,4,1,2,yes,no,no,no,no,0,no,semi-furnished
-4900000,4770,3,1,1,yes,yes,yes,no,no,0,no,semi-furnished
-4900000,6300,3,1,1,yes,no,no,no,yes,2,no,semi-furnished
-4900000,5800,2,1,1,yes,yes,yes,no,yes,0,no,semi-furnished
-4900000,3000,3,1,2,yes,no,yes,no,yes,0,no,semi-furnished
-4900000,2970,3,1,3,yes,no,no,no,no,0,no,semi-furnished
-4900000,6720,3,1,1,yes,no,no,no,no,0,no,unfurnished
-4900000,4646,3,1,2,yes,yes,yes,no,no,2,no,semi-furnished
-4900000,12900,3,1,1,yes,no,no,no,no,2,no,furnished
-4893000,3420,4,2,2,yes,no,yes,no,yes,2,no,semi-furnished
-4893000,4995,4,2,1,yes,no,yes,no,no,0,no,semi-furnished
-4865000,4350,2,1,1,yes,no,yes,no,no,0,no,unfurnished
-4830000,4160,3,1,3,yes,no,no,no,no,0,no,unfurnished
-4830000,6040,3,1,1,yes,no,no,no,no,2,yes,semi-furnished
-4830000,6862,3,1,2,yes,no,no,no,yes,2,yes,furnished
-4830000,4815,2,1,1,yes,no,no,no,yes,0,yes,semi-furnished
-4795000,7000,3,1,2,yes,no,yes,no,no,0,no,unfurnished
-4795000,8100,4,1,4,yes,no,yes,no,yes,2,no,semi-furnished
-4767000,3420,4,2,2,yes,no,no,no,no,0,no,semi-furnished
-4760000,9166,2,1,1,yes,no,yes,no,yes,2,no,semi-furnished
-4760000,6321,3,1,2,yes,no,yes,no,yes,1,no,furnished
-4760000,10240,2,1,1,yes,no,no,no,yes,2,yes,unfurnished
-4753000,6440,2,1,1,yes,no,no,no,yes,3,no,semi-furnished
-4690000,5170,3,1,4,yes,no,no,no,yes,0,no,semi-furnished
-4690000,6000,2,1,1,yes,no,yes,no,yes,1,no,furnished
-4690000,3630,3,1,2,yes,no,no,no,no,2,no,semi-furnished
-4690000,9667,4,2,2,yes,yes,yes,no,no,1,no,semi-furnished
-4690000,5400,2,1,2,yes,no,no,no,no,0,yes,semi-furnished
-4690000,4320,3,1,1,yes,no,no,no,no,0,yes,semi-furnished
-4655000,3745,3,1,2,yes,no,yes,no,no,0,no,furnished
-4620000,4160,3,1,1,yes,yes,yes,no,yes,0,no,unfurnished
-4620000,3880,3,2,2,yes,no,yes,no,no,2,no,semi-furnished
-4620000,5680,3,1,2,yes,yes,no,no,yes,1,no,semi-furnished
-4620000,2870,2,1,2,yes,yes,yes,no,no,0,yes,semi-furnished
-4620000,5010,3,1,2,yes,no,yes,no,no,0,no,semi-furnished
-4613000,4510,4,2,2,yes,no,yes,no,no,0,no,semi-furnished
-4585000,4000,3,1,2,yes,no,no,no,no,1,no,furnished
-4585000,3840,3,1,2,yes,no,no,no,no,1,yes,semi-furnished
-4550000,3760,3,1,1,yes,no,no,no,no,2,no,semi-furnished
-4550000,3640,3,1,2,yes,no,no,no,yes,0,no,furnished
-4550000,2550,3,1,2,yes,no,yes,no,no,0,no,furnished
-4550000,5320,3,1,2,yes,yes,yes,no,no,0,yes,semi-furnished
-4550000,5360,3,1,2,yes,no,no,no,no,2,yes,unfurnished
-4550000,3520,3,1,1,yes,no,no,no,no,0,yes,semi-furnished
-4550000,8400,4,1,4,yes,no,no,no,no,3,no,unfurnished
-4543000,4100,2,2,1,yes,yes,yes,no,no,0,no,semi-furnished
-4543000,4990,4,2,2,yes,yes,yes,no,no,0,yes,furnished
-4515000,3510,3,1,3,yes,no,no,no,no,0,no,semi-furnished
-4515000,3450,3,1,2,yes,no,yes,no,no,1,no,semi-furnished
-4515000,9860,3,1,1,yes,no,no,no,no,0,no,semi-furnished
-4515000,3520,2,1,2,yes,no,no,no,no,0,yes,furnished
-4480000,4510,4,1,2,yes,no,no,no,yes,2,no,semi-furnished
-4480000,5885,2,1,1,yes,no,no,no,yes,1,no,unfurnished
-4480000,4000,3,1,2,yes,no,no,no,no,2,no,furnished
-4480000,8250,3,1,1,yes,no,no,no,no,0,no,furnished
-4480000,4040,3,1,2,yes,no,no,no,no,1,no,semi-furnished
-4473000,6360,2,1,1,yes,no,yes,no,yes,1,no,furnished
-4473000,3162,3,1,2,yes,no,no,no,yes,1,no,furnished
-4473000,3510,3,1,2,yes,no,no,no,no,0,no,semi-furnished
-4445000,3750,2,1,1,yes,yes,yes,no,no,0,no,semi-furnished
-4410000,3968,3,1,2,no,no,no,no,no,0,no,semi-furnished
-4410000,4900,2,1,2,yes,no,yes,no,no,0,no,semi-furnished
-4403000,2880,3,1,2,yes,no,no,no,no,0,yes,semi-furnished
-4403000,4880,3,1,1,yes,no,no,no,no,2,yes,unfurnished
-4403000,4920,3,1,2,yes,no,no,no,no,1,no,semi-furnished
-4382000,4950,4,1,2,yes,no,no,no,yes,0,no,semi-furnished
-4375000,3900,3,1,2,yes,no,no,no,no,0,no,unfurnished
-4340000,4500,3,2,3,yes,no,no,yes,no,1,no,furnished
-4340000,1905,5,1,2,no,no,yes,no,no,0,no,semi-furnished
-4340000,4075,3,1,1,yes,yes,yes,no,no,2,no,semi-furnished
-4340000,3500,4,1,2,yes,no,no,no,no,2,no,furnished
-4340000,6450,4,1,2,yes,no,no,no,no,0,no,semi-furnished
-4319000,4032,2,1,1,yes,no,yes,no,no,0,no,furnished
-4305000,4400,2,1,1,yes,no,no,no,no,1,no,semi-furnished
-4305000,10360,2,1,1,yes,no,no,no,no,1,yes,semi-furnished
-4277000,3400,3,1,2,yes,no,yes,no,no,2,yes,semi-furnished
-4270000,6360,2,1,1,yes,no,no,no,no,0,no,furnished
-4270000,6360,2,1,2,yes,no,no,no,no,0,no,unfurnished
-4270000,4500,2,1,1,yes,no,no,no,yes,2,no,furnished
-4270000,2175,3,1,2,no,yes,yes,no,yes,0,no,unfurnished
-4270000,4360,4,1,2,yes,no,no,no,no,0,no,furnished
-4270000,7770,2,1,1,yes,no,no,no,no,1,no,furnished
-4235000,6650,3,1,2,yes,yes,no,no,no,0,no,semi-furnished
-4235000,2787,3,1,1,yes,no,yes,no,no,0,yes,furnished
-4200000,5500,3,1,2,yes,no,no,no,yes,0,no,unfurnished
-4200000,5040,3,1,2,yes,no,yes,no,yes,0,no,unfurnished
-4200000,5850,2,1,1,yes,yes,yes,no,no,2,no,semi-furnished
-4200000,2610,4,3,2,no,no,no,no,no,0,no,semi-furnished
-4200000,2953,3,1,2,yes,no,yes,no,yes,0,no,unfurnished
-4200000,2747,4,2,2,no,no,no,no,no,0,no,semi-furnished
-4200000,4410,2,1,1,no,no,no,no,no,1,no,unfurnished
-4200000,4000,4,2,2,no,no,no,no,no,0,no,semi-furnished
-4200000,2325,3,1,2,no,no,no,no,no,0,no,semi-furnished
-4200000,4600,3,2,2,yes,no,no,no,yes,1,no,semi-furnished
-4200000,3640,3,2,2,yes,no,yes,no,no,0,no,unfurnished
-4200000,5800,3,1,1,yes,no,no,yes,no,2,no,semi-furnished
-4200000,7000,3,1,1,yes,no,no,no,no,3,no,furnished
-4200000,4079,3,1,3,yes,no,no,no,no,0,no,semi-furnished
-4200000,3520,3,1,2,yes,no,no,no,no,0,yes,semi-furnished
-4200000,2145,3,1,3,yes,no,no,no,no,1,yes,unfurnished
-4200000,4500,3,1,1,yes,no,yes,no,no,0,no,furnished
-4193000,8250,3,1,1,yes,no,yes,no,no,3,no,semi-furnished
-4193000,3450,3,1,2,yes,no,no,no,no,1,no,semi-furnished
-4165000,4840,3,1,2,yes,no,no,no,no,1,no,semi-furnished
-4165000,4080,3,1,2,yes,no,no,no,no,2,no,semi-furnished
-4165000,4046,3,1,2,yes,no,yes,no,no,1,no,semi-furnished
-4130000,4632,4,1,2,yes,no,no,no,yes,0,no,semi-furnished
-4130000,5985,3,1,1,yes,no,yes,no,no,0,no,semi-furnished
-4123000,6060,2,1,1,yes,no,yes,no,no,1,no,semi-furnished
-4098500,3600,3,1,1,yes,no,yes,no,yes,0,yes,furnished
-4095000,3680,3,2,2,yes,no,no,no,no,0,no,semi-furnished
-4095000,4040,2,1,2,yes,no,no,no,no,1,no,semi-furnished
-4095000,5600,2,1,1,yes,no,no,no,yes,0,no,semi-furnished
-4060000,5900,4,2,2,no,no,yes,no,no,1,no,unfurnished
-4060000,4992,3,2,2,yes,no,no,no,no,2,no,unfurnished
-4060000,4340,3,1,1,yes,no,no,no,no,0,no,semi-furnished
-4060000,3000,4,1,3,yes,no,yes,no,yes,2,no,semi-furnished
-4060000,4320,3,1,2,yes,no,no,no,no,2,yes,furnished
-4025000,3630,3,2,2,yes,no,no,yes,no,2,no,semi-furnished
-4025000,3460,3,2,1,yes,no,yes,no,yes,1,no,furnished
-4025000,5400,3,1,1,yes,no,no,no,no,3,no,semi-furnished
-4007500,4500,3,1,2,no,no,yes,no,yes,0,no,semi-furnished
-4007500,3460,4,1,2,yes,no,no,no,yes,0,no,semi-furnished
-3990000,4100,4,1,1,no,no,yes,no,no,0,no,unfurnished
-3990000,6480,3,1,2,no,no,no,no,yes,1,no,semi-furnished
-3990000,4500,3,2,2,no,no,yes,no,yes,0,no,semi-furnished
-3990000,3960,3,1,2,yes,no,no,no,no,0,no,furnished
-3990000,4050,2,1,2,yes,yes,yes,no,no,0,yes,unfurnished
-3920000,7260,3,2,1,yes,yes,yes,no,no,3,no,furnished
-3920000,5500,4,1,2,yes,yes,yes,no,no,0,no,semi-furnished
-3920000,3000,3,1,2,yes,no,no,no,no,0,no,semi-furnished
-3920000,3290,2,1,1,yes,no,no,yes,no,1,no,furnished
-3920000,3816,2,1,1,yes,no,yes,no,yes,2,no,furnished
-3920000,8080,3,1,1,yes,no,no,no,yes,2,no,semi-furnished
-3920000,2145,4,2,1,yes,no,yes,no,no,0,yes,unfurnished
-3885000,3780,2,1,2,yes,yes,yes,no,no,0,no,semi-furnished
-3885000,3180,4,2,2,yes,no,no,no,no,0,no,furnished
-3850000,5300,5,2,2,yes,no,no,no,no,0,no,semi-furnished
-3850000,3180,2,2,1,yes,no,yes,no,no,2,no,semi-furnished
-3850000,7152,3,1,2,yes,no,no,no,yes,0,no,furnished
-3850000,4080,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3850000,3850,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3850000,2015,3,1,2,yes,no,yes,no,no,0,yes,semi-furnished
-3850000,2176,2,1,2,yes,yes,no,no,no,0,yes,semi-furnished
-3836000,3350,3,1,2,yes,no,no,no,no,0,no,unfurnished
-3815000,3150,2,2,1,no,no,yes,no,no,0,no,semi-furnished
-3780000,4820,3,1,2,yes,no,no,no,no,0,no,semi-furnished
-3780000,3420,2,1,2,yes,no,no,yes,no,1,no,semi-furnished
-3780000,3600,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3780000,5830,2,1,1,yes,no,no,no,no,2,no,unfurnished
-3780000,2856,3,1,3,yes,no,no,no,no,0,yes,furnished
-3780000,8400,2,1,1,yes,no,no,no,no,1,no,furnished
-3773000,8250,3,1,1,yes,no,no,no,no,2,no,furnished
-3773000,2520,5,2,1,no,no,yes,no,yes,1,no,furnished
-3773000,6930,4,1,2,no,no,no,no,no,1,no,furnished
-3745000,3480,2,1,1,yes,no,no,no,no,0,yes,semi-furnished
-3710000,3600,3,1,1,yes,no,no,no,no,1,no,unfurnished
-3710000,4040,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3710000,6020,3,1,1,yes,no,no,no,no,0,no,semi-furnished
-3710000,4050,2,1,1,yes,no,no,no,no,0,no,furnished
-3710000,3584,2,1,1,yes,no,no,yes,no,0,no,semi-furnished
-3703000,3120,3,1,2,no,no,yes,yes,no,0,no,semi-furnished
-3703000,5450,2,1,1,yes,no,no,no,no,0,no,furnished
-3675000,3630,2,1,1,yes,no,yes,no,no,0,no,furnished
-3675000,3630,2,1,1,yes,no,no,no,yes,0,no,unfurnished
-3675000,5640,2,1,1,no,no,no,no,no,0,no,semi-furnished
-3675000,3600,2,1,1,yes,no,no,no,no,0,no,furnished
-3640000,4280,2,1,1,yes,no,no,no,yes,2,no,semi-furnished
-3640000,3570,3,1,2,yes,no,yes,no,no,0,no,semi-furnished
-3640000,3180,3,1,2,no,no,yes,no,no,0,no,semi-furnished
-3640000,3000,2,1,2,yes,no,no,no,yes,0,no,furnished
-3640000,3520,2,2,1,yes,no,yes,no,no,0,no,semi-furnished
-3640000,5960,3,1,2,yes,yes,yes,no,no,0,no,unfurnished
-3640000,4130,3,2,2,yes,no,no,no,no,2,no,semi-furnished
-3640000,2850,3,2,2,no,no,yes,no,no,0,yes,unfurnished
-3640000,2275,3,1,3,yes,no,no,yes,yes,0,yes,semi-furnished
-3633000,3520,3,1,1,yes,no,no,no,no,2,yes,unfurnished
-3605000,4500,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3605000,4000,2,1,1,yes,no,no,no,no,0,yes,semi-furnished
-3570000,3150,3,1,2,yes,no,yes,no,no,0,no,furnished
-3570000,4500,4,2,2,yes,no,yes,no,no,2,no,furnished
-3570000,4500,2,1,1,no,no,no,no,no,0,no,furnished
-3570000,3640,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3535000,3850,3,1,1,yes,no,no,no,no,2,no,unfurnished
-3500000,4240,3,1,2,yes,no,no,no,yes,0,no,semi-furnished
-3500000,3650,3,1,2,yes,no,no,no,no,0,no,unfurnished
-3500000,4600,4,1,2,yes,no,no,no,no,0,no,semi-furnished
-3500000,2135,3,2,2,no,no,no,no,no,0,no,unfurnished
-3500000,3036,3,1,2,yes,no,yes,no,no,0,no,semi-furnished
-3500000,3990,3,1,2,yes,no,no,no,no,0,no,semi-furnished
-3500000,7424,3,1,1,no,no,no,no,no,0,no,unfurnished
-3500000,3480,3,1,1,no,no,no,no,yes,0,no,unfurnished
-3500000,3600,6,1,2,yes,no,no,no,no,1,no,unfurnished
-3500000,3640,2,1,1,yes,no,no,no,no,1,no,semi-furnished
-3500000,5900,2,1,1,yes,no,no,no,no,1,no,furnished
-3500000,3120,3,1,2,yes,no,no,no,no,1,no,unfurnished
-3500000,7350,2,1,1,yes,no,no,no,no,1,no,semi-furnished
-3500000,3512,2,1,1,yes,no,no,no,no,1,yes,unfurnished
-3500000,9500,3,1,2,yes,no,no,no,no,3,yes,unfurnished
-3500000,5880,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3500000,12944,3,1,1,yes,no,no,no,no,0,no,unfurnished
-3493000,4900,3,1,2,no,no,no,no,no,0,no,unfurnished
-3465000,3060,3,1,1,yes,no,no,no,no,0,no,unfurnished
-3465000,5320,2,1,1,yes,no,no,no,no,1,yes,unfurnished
-3465000,2145,3,1,3,yes,no,no,no,no,0,yes,furnished
-3430000,4000,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3430000,3185,2,1,1,yes,no,no,no,no,2,no,unfurnished
-3430000,3850,3,1,1,yes,no,no,no,no,0,no,unfurnished
-3430000,2145,3,1,3,yes,no,no,no,no,0,yes,furnished
-3430000,2610,3,1,2,yes,no,yes,no,no,0,yes,unfurnished
-3430000,1950,3,2,2,yes,no,yes,no,no,0,yes,unfurnished
-3423000,4040,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3395000,4785,3,1,2,yes,yes,yes,no,yes,1,no,furnished
-3395000,3450,3,1,1,yes,no,yes,no,no,2,no,unfurnished
-3395000,3640,2,1,1,yes,no,no,no,no,0,no,furnished
-3360000,3500,4,1,2,yes,no,no,no,yes,2,no,unfurnished
-3360000,4960,4,1,3,no,no,no,no,no,0,no,semi-furnished
-3360000,4120,2,1,2,yes,no,no,no,no,0,no,unfurnished
-3360000,4750,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3360000,3720,2,1,1,no,no,no,no,yes,0,no,unfurnished
-3360000,3750,3,1,1,yes,no,no,no,no,0,no,unfurnished
-3360000,3100,3,1,2,no,no,yes,no,no,0,no,semi-furnished
-3360000,3185,2,1,1,yes,no,yes,no,no,2,no,furnished
-3353000,2700,3,1,1,no,no,no,no,no,0,no,furnished
-3332000,2145,3,1,2,yes,no,yes,no,no,0,yes,furnished
-3325000,4040,2,1,1,yes,no,no,no,no,1,no,unfurnished
-3325000,4775,4,1,2,yes,no,no,no,no,0,no,unfurnished
-3290000,2500,2,1,1,no,no,no,no,yes,0,no,unfurnished
-3290000,3180,4,1,2,yes,no,yes,no,yes,0,no,unfurnished
-3290000,6060,3,1,1,yes,yes,yes,no,no,0,no,furnished
-3290000,3480,4,1,2,no,no,no,no,no,1,no,semi-furnished
-3290000,3792,4,1,2,yes,no,no,no,no,0,no,semi-furnished
-3290000,4040,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3290000,2145,3,1,2,yes,no,yes,no,no,0,yes,furnished
-3290000,5880,3,1,1,yes,no,no,no,no,1,no,unfurnished
-3255000,4500,2,1,1,no,no,no,no,no,0,no,semi-furnished
-3255000,3930,2,1,1,no,no,no,no,no,0,no,unfurnished
-3234000,3640,4,1,2,yes,no,yes,no,no,0,no,unfurnished
-3220000,4370,3,1,2,yes,no,no,no,no,0,no,unfurnished
-3220000,2684,2,1,1,yes,no,no,no,yes,1,no,unfurnished
-3220000,4320,3,1,1,no,no,no,no,no,1,no,unfurnished
-3220000,3120,3,1,2,no,no,no,no,no,0,no,furnished
-3150000,3450,1,1,1,yes,no,no,no,no,0,no,furnished
-3150000,3986,2,2,1,no,yes,yes,no,no,1,no,unfurnished
-3150000,3500,2,1,1,no,no,yes,no,no,0,no,semi-furnished
-3150000,4095,2,1,1,yes,no,no,no,no,2,no,semi-furnished
-3150000,1650,3,1,2,no,no,yes,no,no,0,no,unfurnished
-3150000,3450,3,1,2,yes,no,yes,no,no,0,no,semi-furnished
-3150000,6750,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3150000,9000,3,1,2,yes,no,no,no,no,2,no,semi-furnished
-3150000,3069,2,1,1,yes,no,no,no,no,1,no,unfurnished
-3143000,4500,3,1,2,yes,no,no,no,yes,0,no,unfurnished
-3129000,5495,3,1,1,yes,no,yes,no,no,0,no,unfurnished
-3118850,2398,3,1,1,yes,no,no,no,no,0,yes,semi-furnished
-3115000,3000,3,1,1,no,no,no,no,yes,0,no,unfurnished
-3115000,3850,3,1,2,yes,no,no,no,no,0,no,unfurnished
-3115000,3500,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3087000,8100,2,1,1,yes,no,no,no,no,1,no,unfurnished
-3080000,4960,2,1,1,yes,no,yes,no,yes,0,no,unfurnished
-3080000,2160,3,1,2,no,no,yes,no,no,0,no,semi-furnished
-3080000,3090,2,1,1,yes,yes,yes,no,no,0,no,unfurnished
-3080000,4500,2,1,2,yes,no,no,yes,no,1,no,semi-furnished
-3045000,3800,2,1,1,yes,no,no,no,no,0,no,unfurnished
-3010000,3090,3,1,2,no,no,no,no,no,0,no,semi-furnished
-3010000,3240,3,1,2,yes,no,no,no,no,2,no,semi-furnished
-3010000,2835,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-3010000,4600,2,1,1,yes,no,no,no,no,0,no,furnished
-3010000,5076,3,1,1,no,no,no,no,no,0,no,unfurnished
-3010000,3750,3,1,2,yes,no,no,no,no,0,no,unfurnished
-3010000,3630,4,1,2,yes,no,no,no,no,3,no,semi-furnished
-3003000,8050,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2975000,4352,4,1,2,no,no,no,no,no,1,no,unfurnished
-2961000,3000,2,1,2,yes,no,no,no,no,0,no,semi-furnished
-2940000,5850,3,1,2,yes,no,yes,no,no,1,no,unfurnished
-2940000,4960,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2940000,3600,3,1,2,no,no,no,no,no,1,no,unfurnished
-2940000,3660,4,1,2,no,no,no,no,no,0,no,unfurnished
-2940000,3480,3,1,2,no,no,no,no,no,1,no,semi-furnished
-2940000,2700,2,1,1,no,no,no,no,no,0,no,furnished
-2940000,3150,3,1,2,no,no,no,no,no,0,no,unfurnished
-2940000,6615,3,1,2,yes,no,no,no,no,0,no,semi-furnished
-2870000,3040,2,1,1,no,no,no,no,no,0,no,unfurnished
-2870000,3630,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2870000,6000,2,1,1,yes,no,no,no,no,0,no,semi-furnished
-2870000,5400,4,1,2,yes,no,no,no,no,0,no,unfurnished
-2852500,5200,4,1,3,yes,no,no,no,no,0,no,unfurnished
-2835000,3300,3,1,2,no,no,no,no,no,1,no,semi-furnished
-2835000,4350,3,1,2,no,no,no,yes,no,1,no,unfurnished
-2835000,2640,2,1,1,no,no,no,no,no,1,no,furnished
-2800000,2650,3,1,2,yes,no,yes,no,no,1,no,unfurnished
-2800000,3960,3,1,1,yes,no,no,no,no,0,no,furnished
-2730000,6800,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2730000,4000,3,1,2,yes,no,no,no,no,1,no,unfurnished
-2695000,4000,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2660000,3934,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2660000,2000,2,1,2,yes,no,no,no,no,0,no,semi-furnished
-2660000,3630,3,3,2,no,yes,no,no,no,0,no,unfurnished
-2660000,2800,3,1,1,yes,no,no,no,no,0,no,unfurnished
-2660000,2430,3,1,1,no,no,no,no,no,0,no,unfurnished
-2660000,3480,2,1,1,yes,no,no,no,no,1,no,semi-furnished
-2660000,4000,3,1,1,yes,no,no,no,no,0,no,semi-furnished
-2653000,3185,2,1,1,yes,no,no,no,yes,0,no,unfurnished
-2653000,4000,3,1,2,yes,no,no,no,yes,0,no,unfurnished
-2604000,2910,2,1,1,no,no,no,no,no,0,no,unfurnished
-2590000,3600,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2590000,4400,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2590000,3600,2,2,2,yes,no,yes,no,no,1,no,furnished
-2520000,2880,3,1,1,no,no,no,no,no,0,no,unfurnished
-2520000,3180,3,1,1,no,no,no,no,no,0,no,unfurnished
-2520000,3000,2,1,2,yes,no,no,no,no,0,no,furnished
-2485000,4400,3,1,2,yes,no,no,no,no,0,no,unfurnished
-2485000,3000,3,1,2,no,no,no,no,no,0,no,semi-furnished
-2450000,3210,3,1,2,yes,no,yes,no,no,0,no,unfurnished
-2450000,3240,2,1,1,no,yes,no,no,no,1,no,unfurnished
-2450000,3000,2,1,1,yes,no,no,no,no,1,no,unfurnished
-2450000,3500,2,1,1,yes,yes,no,no,no,0,no,unfurnished
-2450000,4840,2,1,2,yes,no,no,no,no,0,no,unfurnished
-2450000,7700,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2408000,3635,2,1,1,no,no,no,no,no,0,no,unfurnished
-2380000,2475,3,1,2,yes,no,no,no,no,0,no,furnished
-2380000,2787,4,2,2,yes,no,no,no,no,0,no,furnished
-2380000,3264,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2345000,3640,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2310000,3180,2,1,1,yes,no,no,no,no,0,no,unfurnished
-2275000,1836,2,1,1,no,no,yes,no,no,0,no,semi-furnished
-2275000,3970,1,1,1,no,no,no,no,no,0,no,unfurnished
-2275000,3970,3,1,2,yes,no,yes,no,no,0,no,unfurnished
-2240000,1950,3,1,1,no,no,no,yes,no,0,no,unfurnished
-2233000,5300,3,1,1,no,no,no,no,yes,0,yes,unfurnished
-2135000,3000,2,1,1,no,no,no,no,no,0,no,unfurnished
-2100000,2400,3,1,2,yes,no,no,no,no,0,no,unfurnished
-2100000,3000,4,1,2,yes,no,no,no,no,0,no,unfurnished
-2100000,3360,2,1,1,yes,no,no,no,no,1,no,unfurnished
-1960000,3420,5,1,2,no,no,no,no,no,0,no,unfurnished
-1890000,1700,3,1,2,yes,no,no,no,no,0,no,unfurnished
-1890000,3649,2,1,1,yes,no,no,no,no,0,no,unfurnished
-1855000,2990,2,1,1,no,no,no,no,no,1,no,unfurnished
-1820000,3000,2,1,1,yes,no,yes,no,no,2,no,unfurnished
-1767150,2400,3,1,1,no,no,no,no,no,0,no,semi-furnished
-1750000,3620,2,1,1,yes,no,no,no,no,0,no,unfurnished
-1750000,2910,3,1,1,no,no,no,no,no,0,no,furnished
-1750000,3850,3,1,2,yes,no,no,no,no,0,no,unfurnished
+price,area,bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishingstatus,plz,ort
+2800000,308,6,3,2,yes,no,yes,yes,no,3,no,semi-furnished,40217,Düsseldorf Zentrum
+2800000,411,7,4,3,no,yes,yes,yes,no,2,yes,semi-furnished,50674,Köln Innenstadt
+2743000,346,7,4,3,no,no,yes,yes,no,3,no,semi-furnished,53129,Bonn Kessenich
+2380000,420,8,3,3,no,no,yes,yes,no,2,no,unfurnished,53604,Bad Honnef
+2303000,315,6,3,2,yes,yes,yes,yes,no,2,yes,unfurnished,40223,Düsseldorf Bilk
+2270000,311,6,3,3,no,no,yes,yes,yes,4,no,semi-furnished,53121,Bonn Endenich
+2070000,375,7,4,2,yes,no,yes,yes,no,2,no,furnished,53225,Bonn Beuel
+1966000,376,7,4,2,no,no,yes,yes,no,4,no,unfurnished,45131,Essen Rüttenscheid
+1834000,282,6,2,3,no,no,yes,no,yes,3,yes,semi-furnished,53113,Bonn Zentrum
+1816000,247,5,2,3,no,no,yes,no,no,3,yes,unfurnished,53113,Bonn Zentrum
+1802000,292,6,3,2,no,no,yes,yes,yes,2,no,unfurnished,53113,Bonn Zentrum
+1790000,381,8,2,2,no,no,yes,no,no,3,yes,unfurnished,53343,Wachtberg
+1785000,338,7,2,2,no,no,yes,yes,no,4,no,unfurnished,44227,Dortmund Hombruch
+1768000,241,5,2,2,yes,no,yes,yes,no,3,no,semi-furnished,50678,Köln Innenstadt
+1758000,202,4,2,3,no,no,no,yes,no,3,no,furnished,50670,Köln Innenstadt
+1725000,260,6,4,2,no,no,yes,yes,yes,3,no,semi-furnished,50935,Köln Lindenthal
+1715000,272,6,4,2,no,no,yes,yes,no,3,yes,unfurnished,45473,Mülheim a.d. Ruhr
+1634000,308,6,2,3,no,no,yes,yes,yes,3,yes,furnished,53340,Meckenheim
+1622000,200,5,3,3,no,no,yes,yes,no,2,no,unfurnished,40210,Düsseldorf Zentrum
+1599000,233,5,2,2,no,yes,no,yes,yes,2,no,furnished,53129,Bonn Kessenich
+1596000,297,5,4,3,yes,no,yes,yes,no,3,yes,unfurnished,53127,Bonn Hardtberg
+1564000,313,7,3,3,no,yes,yes,yes,no,2,no,unfurnished,44227,Dortmund Hombruch
+1538000,151,4,1,3,no,no,yes,yes,no,2,yes,unfurnished,40547,Düsseldorf Oberkassel
+1537000,174,4,3,1,no,no,yes,no,no,2,yes,semi-furnished,40215,Düsseldorf Zentrum
+1531000,270,6,2,3,yes,no,no,yes,no,2,yes,unfurnished,53111,Bonn Zentrum
+1526000,260,6,3,2,no,yes,no,yes,yes,1,no,semi-furnished,53179,Bonn Bad Godesberg
+1523000,198,5,1,3,no,no,yes,no,no,2,yes,furnished,50996,Köln Rodenkirchen
+1502000,294,6,2,2,yes,no,yes,yes,no,4,yes,unfurnished,53773,Hennef (Sieg)
+1445000,364,7,3,2,no,yes,yes,yes,no,2,no,unfurnished,45326,Essen Altenessen
+1393000,260,6,1,1,no,no,no,yes,no,2,no,unfurnished,53115,Bonn Poppelsdorf
+1360000,193,4,3,1,no,yes,no,yes,no,3,no,unfurnished,50667,Köln Innenstadt
+1350000,299,5,4,3,no,no,yes,yes,no,3,no,unfurnished,53125,Bonn Hardtberg
+1334000,330,7,3,2,yes,no,yes,yes,no,4,no,unfurnished,53359,Rheinbach
+1329000,231,5,3,3,no,no,yes,yes,no,1,no,furnished,50827,Köln Ehrenfeld
+1324000,161,3,1,2,no,yes,yes,yes,no,3,yes,unfurnished,40210,Düsseldorf Zentrum
+1324000,219,5,2,1,no,no,no,yes,no,3,yes,unfurnished,50733,Köln Nippes
+1322000,208,5,2,3,no,no,yes,yes,no,1,no,unfurnished,50668,Köln Innenstadt
+1300000,346,6,3,3,no,no,yes,yes,no,3,no,semi-furnished,45128,Essen Zentrum
+1283000,240,4,4,2,no,no,yes,yes,no,2,no,unfurnished,52066,Aachen
+1277000,213,5,3,3,no,yes,yes,yes,yes,2,no,unfurnished,40212,Düsseldorf Zentrum
+1261000,143,5,2,1,no,no,yes,yes,no,1,no,semi-furnished,40545,Düsseldorf Oberkassel
+1249000,168,4,2,2,no,yes,yes,yes,no,3,yes,unfurnished,53113,Bonn Zentrum
+1242000,218,4,4,2,no,no,no,yes,no,4,no,semi-furnished,53227,Bonn Beuel
+1241000,157,5,3,1,no,yes,yes,yes,no,1,yes,unfurnished,50935,Köln Lindenthal
+1239000,265,5,3,2,no,no,yes,yes,no,3,yes,unfurnished,53757,Sankt Augustin
+1237000,353,7,4,2,no,no,yes,yes,no,3,yes,unfurnished,44623,Herne
+1224000,226,5,1,2,no,no,no,yes,no,1,no,unfurnished,50672,Köln Innenstadt
+1218000,201,4,3,3,no,no,yes,yes,no,2,yes,unfurnished,53115,Bonn Poppelsdorf
+1215000,144,5,2,2,no,no,yes,yes,no,2,yes,unfurnished,40212,Düsseldorf Zentrum
+1208000,214,6,2,3,no,yes,no,no,no,1,yes,semi-furnished,40212,Düsseldorf Zentrum
+1205000,171,4,3,2,no,no,yes,yes,no,3,yes,furnished,50670,Köln Innenstadt
+1194000,260,6,2,1,yes,no,yes,yes,no,1,no,semi-furnished,53177,Bonn Bad Godesberg
+1171000,195,5,1,3,no,yes,no,yes,no,3,no,unfurnished,40225,Düsseldorf Bilk
+1163000,260,6,3,3,yes,no,no,yes,no,1,no,furnished,48145,Münster
+1158000,379,8,4,3,no,yes,yes,yes,no,2,no,unfurnished,53340,Meckenheim
+1154000,227,5,2,2,no,no,yes,no,no,1,no,unfurnished,50937,Köln Suelz
+1115000,332,6,2,3,no,no,yes,yes,yes,2,no,unfurnished,50169,Kerpen
+1113000,234,5,1,3,yes,no,yes,yes,no,2,no,unfurnished,40210,Düsseldorf Zentrum
+1097000,260,6,1,3,no,no,no,yes,no,3,no,semi-furnished,48157,Münster
+1096000,210,5,1,1,no,no,yes,yes,no,3,no,unfurnished,53127,Bonn Venusberg
+1095000,198,5,1,2,no,no,no,yes,no,2,no,semi-furnished,50997,Köln Rodenkirchen
+1090000,166,4,1,3,no,no,yes,yes,no,2,no,unfurnished,50933,Köln Lindenthal
+1086000,155,4,2,3,no,yes,yes,no,no,2,no,unfurnished,50931,Köln Lindenthal
+1083000,181,4,3,1,no,yes,yes,yes,no,1,no,furnished,53115,Bonn Zentrum
+1081000,175,5,1,2,no,yes,yes,yes,no,2,yes,semi-furnished,50969,Köln Suelz
+1081000,111,3,1,1,no,no,yes,yes,no,1,yes,unfurnished,40213,Düsseldorf Zentrum
+1078000,255,6,1,2,no,no,yes,yes,no,2,no,semi-furnished,40233,Düsseldorf Flingern
+1075000,192,4,2,1,no,yes,yes,yes,no,2,no,unfurnished,50678,Köln Innenstadt
+1074000,224,6,3,3,no,yes,yes,yes,yes,2,no,semi-furnished,51149,Köln Porz
+1069000,214,6,3,3,no,no,yes,yes,no,2,no,semi-furnished,53115,Bonn Poppelsdorf
+1067000,317,7,2,2,no,no,yes,yes,no,4,yes,semi-furnished,53424,Remagen
+1059000,239,5,3,3,no,no,yes,yes,no,1,yes,unfurnished,53125,Bonn Hardtberg
+1055000,204,5,1,2,yes,no,no,yes,no,1,yes,semi-furnished,50674,Köln Innenstadt
+1052000,204,5,2,2,no,yes,yes,yes,no,3,no,unfurnished,53115,Bonn Zentrum
+1043000,175,4,1,2,no,yes,no,yes,no,1,no,unfurnished,53111,Bonn Zentrum
+1041000,204,5,1,2,no,no,no,yes,no,3,no,furnished,53175,Bonn Bad Godesberg
+1041000,190,5,2,2,no,yes,yes,yes,no,1,yes,semi-furnished,40878,Ratingen
+1036000,229,5,3,3,no,yes,yes,yes,no,1,no,semi-furnished,53129,Bonn Kessenich
+1030000,236,6,2,1,no,no,no,yes,no,1,no,furnished,53111,Bonn Zentrum
+1028000,139,4,2,1,yes,yes,no,yes,no,1,no,semi-furnished,40545,Düsseldorf Oberkassel
+1025000,171,5,2,3,yes,no,yes,yes,no,2,yes,unfurnished,50996,Köln Rodenkirchen
+1022000,258,6,3,2,no,no,no,yes,yes,2,no,semi-furnished,50321,Brühl
+1017000,216,6,2,3,yes,no,yes,yes,no,3,no,furnished,51103,Köln Kalk
+1011000,141,4,1,2,no,yes,no,yes,no,2,no,unfurnished,40547,Düsseldorf Oberkassel
+1008000,173,4,1,1,no,no,yes,yes,no,1,no,unfurnished,53115,Bonn Zentrum
+1005000,211,5,3,2,no,yes,yes,no,no,3,no,semi-furnished,40882,Ratingen
+1000000,152,4,3,2,no,no,yes,yes,yes,3,yes,unfurnished,50823,Köln Ehrenfeld
+997000,166,4,1,1,no,yes,yes,yes,no,1,no,furnished,53113,Bonn Zentrum
+989000,236,5,1,3,yes,no,yes,yes,no,2,no,unfurnished,53343,Wachtberg
+989000,214,5,2,1,yes,yes,no,yes,no,1,no,unfurnished,45130,Essen Rüttenscheid
+986000,182,5,1,2,no,yes,no,yes,no,3,no,unfurnished,50937,Köln Lindenthal
+985000,260,6,3,1,no,no,no,no,no,3,no,semi-furnished,53343,Wachtberg
+982000,119,3,1,2,no,no,yes,yes,yes,2,yes,furnished,50674,Köln Innenstadt
+980000,163,4,2,2,no,no,no,yes,yes,2,no,furnished,53127,Bonn Venusberg
+964000,364,7,2,3,no,no,yes,yes,no,4,no,unfurnished,53783,Eitorf
+960000,170,6,1,1,no,no,yes,yes,no,1,no,semi-furnished,48153,Münster
+957000,260,6,1,3,no,yes,yes,no,no,1,no,semi-furnished,56075,Koblenz
+955000,175,5,1,1,no,no,yes,yes,no,1,no,unfurnished,45131,Essen Rüttenscheid
+943000,233,6,1,2,no,yes,no,yes,no,2,no,semi-furnished,50739,Köln Nippes
+940000,129,3,1,1,no,no,yes,yes,no,1,no,furnished,40215,Düsseldorf Zentrum
+939000,196,5,1,2,no,yes,yes,yes,no,3,no,unfurnished,50259,Pulheim
+933000,281,4,4,2,no,yes,yes,yes,yes,3,no,unfurnished,50374,Erftstadt
+932000,193,4,2,1,no,no,yes,no,no,2,yes,semi-furnished,53115,Bonn Zentrum
+932000,259,6,4,2,no,no,yes,yes,no,4,yes,unfurnished,42653,Solingen
+930000,139,4,2,3,no,no,yes,yes,no,1,no,furnished,40213,Düsseldorf Zentrum
+924000,194,4,3,2,no,no,yes,yes,no,3,no,unfurnished,50931,Köln Lindenthal
+921000,157,3,2,1,no,no,yes,yes,no,2,no,unfurnished,53173,Bonn Bad Godesberg
+919000,163,4,1,2,no,no,yes,yes,no,1,yes,semi-furnished,48151,Münster
+916000,165,4,1,2,no,no,no,yes,no,2,no,unfurnished,50670,Köln Innenstadt
+916000,174,4,2,3,no,no,yes,yes,no,2,yes,semi-furnished,50933,Köln Lindenthal
+915000,177,5,3,1,no,yes,yes,yes,no,2,no,unfurnished,50739,Köln Nippes
+909000,180,4,2,3,no,yes,yes,yes,no,3,yes,semi-furnished,50354,Hürth
+904000,191,5,3,3,no,yes,yes,yes,no,3,no,semi-furnished,53123,Bonn Duisdorf
+898000,149,5,1,3,no,no,yes,yes,no,1,no,semi-furnished,50733,Köln Nippes
+892000,158,4,2,3,no,no,yes,yes,yes,3,yes,unfurnished,53113,Bonn Zentrum
+882000,138,5,2,2,no,no,no,yes,no,2,no,unfurnished,50678,Köln Innenstadt
+880000,151,4,1,3,no,no,yes,yes,no,1,no,furnished,48145,Münster
+876000,161,4,3,3,no,no,no,yes,no,1,yes,furnished,48153,Münster
+875000,173,4,3,1,no,no,yes,yes,no,1,yes,unfurnished,53111,Bonn Zentrum
+870000,169,4,1,2,no,no,yes,yes,no,3,no,semi-furnished,53129,Bonn Kessenich
+865000,193,5,1,2,no,no,no,yes,no,3,no,unfurnished,44227,Dortmund Hombruch
+864000,200,4,2,1,yes,no,yes,yes,no,2,no,unfurnished,53229,Bonn Beuel
+856000,119,4,2,3,no,yes,no,yes,no,2,yes,unfurnished,53115,Bonn Poppelsdorf
+853000,179,5,2,3,no,yes,no,no,no,3,no,unfurnished,53175,Bonn Bad Godesberg
+852000,103,4,2,3,no,no,yes,yes,no,0,no,unfurnished,40547,Düsseldorf Oberkassel
+848000,123,3,2,3,no,no,no,yes,no,1,yes,unfurnished,53111,Bonn Zentrum
+848000,106,3,1,3,no,no,yes,yes,yes,1,no,semi-furnished,50674,Köln Innenstadt
+839000,201,5,1,2,yes,no,yes,yes,no,2,yes,semi-furnished,45130,Essen Rüttenscheid
+838000,167,4,1,2,no,no,yes,yes,no,2,no,unfurnished,53121,Bonn Endenich
+835000,169,5,3,2,no,no,yes,yes,no,3,yes,semi-furnished,53721,Siegburg
+833000,129,3,1,1,yes,no,no,no,yes,0,yes,unfurnished,50670,Köln Innenstadt
+827000,130,4,2,3,no,no,yes,yes,no,2,no,unfurnished,50827,Köln Ehrenfeld
+827000,322,6,4,3,no,yes,yes,yes,no,3,no,unfurnished,58453,Witten
+825000,286,5,3,2,no,no,yes,yes,no,3,no,semi-furnished,53424,Remagen
+822000,231,6,2,1,yes,no,no,no,no,3,yes,unfurnished,53604,Bad Honnef
+820000,206,5,1,2,no,yes,yes,yes,no,1,no,semi-furnished,53846,Troisdorf
+820000,211,5,2,1,no,no,yes,yes,no,2,no,unfurnished,45127,Essen Zentrum
+819000,206,5,1,2,no,no,yes,yes,no,2,yes,semi-furnished,51147,Köln Porz
+817000,217,6,1,2,no,no,yes,yes,no,2,no,semi-furnished,53123,Bonn Duisdorf
+815000,108,4,1,1,no,no,yes,yes,no,1,yes,unfurnished,40212,Düsseldorf Zentrum
+808000,186,5,2,3,no,no,yes,yes,no,2,no,unfurnished,53757,Sankt Augustin
+808000,183,5,2,1,yes,no,yes,yes,no,1,no,furnished,45127,Essen Zentrum
+804000,166,5,3,2,no,no,yes,yes,no,3,no,unfurnished,53111,Bonn Zentrum
+802000,162,4,1,1,no,no,yes,yes,yes,1,no,semi-furnished,40597,Düsseldorf Benrath
+797000,209,5,1,1,no,no,no,yes,no,1,no,semi-furnished,51063,Köln Muelheim
+795000,96,3,2,1,no,no,no,no,no,2,yes,unfurnished,40210,Düsseldorf Zentrum
+792000,200,5,1,3,no,no,yes,yes,no,1,yes,semi-furnished,53840,Troisdorf
+789000,127,4,2,1,no,no,no,yes,no,1,no,unfurnished,40215,Düsseldorf Zentrum
+787000,204,6,3,3,yes,no,yes,yes,yes,2,yes,unfurnished,51379,Leverkusen
+785000,179,5,2,2,yes,no,yes,yes,no,1,no,unfurnished,53115,Bonn Poppelsdorf
+781000,202,4,3,2,no,no,no,yes,no,2,no,semi-furnished,53127,Bonn Venusberg
+779000,159,3,3,3,yes,yes,no,yes,no,3,no,unfurnished,53115,Bonn Zentrum
+774000,243,5,2,2,no,no,yes,yes,no,3,no,unfurnished,53721,Siegburg
+774000,155,4,1,1,no,no,no,yes,no,1,no,unfurnished,53129,Bonn Kessenich
+772000,139,3,2,2,no,no,yes,yes,no,2,no,unfurnished,48147,Münster
+761000,127,3,2,1,no,yes,yes,no,yes,3,yes,semi-furnished,50668,Köln Innenstadt
+760000,191,5,2,1,no,no,yes,yes,no,2,no,semi-furnished,53840,Troisdorf
+759000,109,3,3,1,no,no,yes,yes,no,2,yes,unfurnished,40545,Düsseldorf Oberkassel
+759000,138,4,1,1,no,yes,no,yes,no,2,no,unfurnished,50679,Köln Deutz
+756000,226,5,3,3,no,no,yes,yes,no,3,yes,furnished,50171,Kerpen
+754000,169,4,2,1,no,no,yes,yes,no,3,no,semi-furnished,53343,Wachtberg
+750000,230,6,1,2,no,no,yes,yes,no,3,no,semi-furnished,41466,Neuss
+748000,193,4,2,1,yes,no,no,yes,no,2,no,furnished,53121,Bonn Endenich
+748000,169,4,3,3,no,no,yes,yes,no,2,no,semi-furnished,44227,Dortmund Hombruch
+747000,133,5,1,1,no,no,yes,yes,yes,1,no,semi-furnished,50937,Köln Lindenthal
+747000,127,4,2,3,no,no,yes,yes,no,2,no,semi-furnished,40211,Düsseldorf Zentrum
+746000,145,5,1,2,no,no,yes,no,no,2,no,semi-furnished,50676,Köln Innenstadt
+746000,163,4,2,2,yes,yes,no,yes,no,1,no,unfurnished,45130,Essen Rüttenscheid
+744000,172,4,1,3,no,no,yes,yes,no,1,no,semi-furnished,53343,Wachtberg
+741000,236,5,3,1,no,yes,yes,yes,no,3,no,unfurnished,41068,Mönchengladbach
+740000,179,5,2,1,no,yes,no,yes,yes,1,no,semi-furnished,53757,Sankt Augustin
+740000,130,4,1,3,no,yes,yes,yes,yes,1,yes,semi-furnished,50937,Köln Suelz
+735000,201,5,1,1,no,no,yes,yes,no,1,yes,unfurnished,53773,Hennef (Sieg)
+733000,154,5,1,3,no,no,yes,yes,no,2,yes,semi-furnished,53227,Bonn Beuel
+732000,260,6,2,3,yes,no,no,yes,no,3,yes,unfurnished,53332,Bornheim
+727000,176,4,2,1,no,no,yes,yes,no,2,yes,unfurnished,53123,Bonn Duisdorf
+727000,93,2,2,1,no,no,yes,yes,no,1,yes,semi-furnished,50933,Köln Lindenthal
+724000,147,4,2,1,no,no,no,yes,no,2,no,unfurnished,53115,Bonn Poppelsdorf
+724000,178,5,3,1,no,no,yes,yes,no,2,no,unfurnished,51145,Köln Porz
+724000,150,4,3,1,no,yes,yes,yes,no,1,no,unfurnished,53129,Bonn Kessenich
+722000,200,4,2,2,no,no,no,yes,yes,2,no,unfurnished,52349,Düren
+721000,246,5,3,2,yes,no,yes,yes,no,2,no,unfurnished,53119,Bonn Tannenbusch
+721000,183,5,2,3,yes,no,yes,yes,no,1,no,unfurnished,51377,Leverkusen
+718000,182,4,3,3,no,no,yes,yes,no,1,no,unfurnished,51375,Leverkusen
+717000,171,3,2,3,yes,no,yes,yes,no,3,yes,semi-furnished,51427,Bergisch Gladbach
+716000,222,6,2,3,no,no,no,yes,no,3,no,unfurnished,51147,Köln Porz
+716000,165,5,2,3,yes,no,yes,yes,no,1,yes,furnished,51379,Leverkusen
+715000,229,5,1,3,no,no,no,no,no,2,yes,semi-furnished,53119,Bonn Tannenbusch
+714000,154,3,2,2,no,no,yes,yes,no,2,yes,unfurnished,53177,Bonn Bad Godesberg
+714000,107,3,2,1,no,no,yes,yes,no,2,no,unfurnished,50668,Köln Innenstadt
+708000,138,4,2,3,no,no,yes,yes,no,2,no,unfurnished,53129,Bonn Kessenich
+708000,166,4,1,1,no,yes,yes,yes,no,2,no,semi-furnished,53123,Bonn Duisdorf
+707000,141,3,1,3,no,no,yes,no,no,2,no,unfurnished,53115,Bonn Poppelsdorf
+706000,164,4,3,3,no,no,no,yes,no,3,no,furnished,53113,Bonn Zentrum
+705000,195,5,1,1,yes,no,yes,yes,no,3,no,unfurnished,53639,Königswinter
+705000,130,3,1,2,no,no,yes,no,yes,2,no,unfurnished,53111,Bonn Zentrum
+705000,121,4,3,3,yes,yes,yes,yes,no,3,no,semi-furnished,53115,Bonn Poppelsdorf
+700000,228,6,2,3,no,yes,yes,yes,no,3,no,unfurnished,42855,Remscheid
+700000,178,4,3,2,no,no,yes,yes,yes,3,no,unfurnished,53604,Bad Honnef
+700000,176,5,1,2,no,no,no,no,no,2,yes,unfurnished,51149,Köln Porz
+698000,135,3,2,2,no,no,yes,yes,yes,2,no,unfurnished,45239,Essen Werden
+693000,208,5,2,2,no,no,yes,yes,no,1,no,semi-furnished,53125,Bonn Hardtberg
+690000,159,5,3,2,no,no,yes,yes,no,3,no,unfurnished,53179,Bonn Bad Godesberg
+687000,155,4,1,1,yes,no,yes,yes,no,3,no,semi-furnished,50672,Köln Innenstadt
+686000,192,5,3,2,no,no,yes,yes,no,2,yes,unfurnished,53359,Rheinbach
+685000,119,3,2,1,no,yes,yes,yes,no,1,no,semi-furnished,53127,Bonn Venusberg
+685000,150,4,1,1,yes,no,yes,yes,no,3,no,unfurnished,53111,Bonn Zentrum
+684000,145,4,2,1,no,no,no,yes,no,1,yes,semi-furnished,53127,Bonn Hardtberg
+684000,134,4,1,1,no,yes,yes,yes,no,2,no,semi-furnished,53173,Bonn Bad Godesberg
+680000,137,5,1,3,no,no,no,yes,no,2,no,unfurnished,53113,Bonn Zentrum
+677000,174,4,1,2,no,no,yes,yes,no,2,no,unfurnished,53175,Bonn Bad Godesberg
+675000,159,4,1,3,no,no,yes,yes,no,2,no,semi-furnished,53115,Bonn Poppelsdorf
+674000,151,4,2,3,no,yes,yes,yes,no,2,no,unfurnished,40223,Düsseldorf Bilk
+671000,220,6,1,3,no,no,no,yes,yes,3,no,unfurnished,53721,Siegburg
+669000,151,4,2,1,no,no,no,yes,yes,1,no,unfurnished,50996,Köln Rodenkirchen
+668000,104,3,2,1,yes,no,yes,yes,no,2,no,unfurnished,50676,Köln Innenstadt
+666000,110,3,1,3,no,no,yes,yes,no,1,no,unfurnished,53115,Bonn Zentrum
+666000,191,5,1,3,no,no,no,yes,no,1,yes,unfurnished,44135,Dortmund Zentrum
+664000,173,4,2,1,no,no,no,yes,no,2,yes,unfurnished,52072,Aachen
+662000,110,3,2,3,no,no,yes,yes,no,1,no,furnished,45239,Essen Werden
+661000,133,4,2,1,no,no,yes,yes,no,1,yes,unfurnished,53129,Bonn Kessenich
+659000,126,4,2,3,no,no,yes,no,no,1,yes,semi-furnished,53115,Bonn Poppelsdorf
+657000,230,5,2,1,no,no,yes,yes,no,1,no,semi-furnished,53757,Sankt Augustin
+657000,107,3,2,3,yes,no,yes,yes,no,0,no,unfurnished,40545,Düsseldorf Oberkassel
+654000,193,5,2,3,no,no,yes,yes,no,2,no,semi-furnished,32051,Herford
+654000,175,5,1,3,no,no,yes,yes,no,1,no,semi-furnished,53721,Siegburg
+652000,98,3,1,1,no,no,no,yes,no,1,yes,unfurnished,53115,Bonn Zentrum
+651000,207,5,3,3,no,no,yes,yes,no,3,yes,unfurnished,51373,Leverkusen
+650000,87,3,1,1,no,no,no,yes,no,0,no,unfurnished,40213,Düsseldorf Zentrum
+644000,116,4,2,1,no,no,yes,yes,no,2,no,semi-furnished,50937,Köln Lindenthal
+641000,145,4,1,2,no,no,yes,yes,no,1,no,unfurnished,53113,Bonn Zentrum
+639000,105,3,1,3,no,no,yes,yes,no,0,yes,semi-furnished,48153,Münster
+639000,200,5,1,3,no,no,yes,yes,no,2,no,semi-furnished,59065,Hamm
+636000,103,3,2,3,no,no,yes,yes,no,0,no,unfurnished,53111,Bonn Zentrum
+635000,199,5,2,2,no,no,yes,yes,no,2,no,unfurnished,53332,Bornheim
+635000,150,5,3,3,no,no,yes,yes,no,3,no,unfurnished,53121,Bonn Endenich
+633000,168,4,3,2,no,no,yes,yes,no,2,no,unfurnished,50321,Brühl
+633000,124,3,1,2,no,no,yes,yes,no,1,no,unfurnished,53115,Bonn Poppelsdorf
+632000,150,4,1,1,no,no,yes,yes,no,2,no,semi-furnished,51147,Köln Porz
+631000,111,4,2,1,no,yes,yes,yes,yes,1,no,unfurnished,50674,Köln Innenstadt
+623000,201,5,2,2,no,no,no,yes,no,2,no,unfurnished,47058,Duisburg
+623000,153,4,1,1,yes,no,yes,yes,no,3,no,furnished,53127,Bonn Hardtberg
+623000,192,6,3,1,yes,no,yes,yes,no,2,no,unfurnished,56075,Koblenz
+622000,159,4,2,1,no,no,no,yes,no,1,no,unfurnished,53179,Bonn Bad Godesberg
+619000,103,3,2,1,no,yes,no,yes,yes,2,yes,furnished,53121,Bonn Endenich
+618000,150,5,1,1,no,no,yes,yes,no,2,no,semi-furnished,51067,Köln Muelheim
+617000,144,5,1,1,yes,yes,yes,yes,no,1,no,unfurnished,50827,Köln Ehrenfeld
+617000,199,4,2,3,no,yes,no,yes,no,3,yes,unfurnished,45128,Essen Zentrum
+617000,98,2,1,2,no,yes,no,yes,yes,1,yes,unfurnished,53115,Bonn Zentrum
+617000,131,4,1,2,no,yes,yes,yes,no,2,yes,unfurnished,53757,Sankt Augustin
+615000,121,2,2,3,no,yes,no,yes,no,0,no,semi-furnished,40597,Düsseldorf Benrath
+611000,151,4,2,2,yes,yes,yes,yes,no,3,no,semi-furnished,41464,Neuss
+610000,114,4,2,1,no,no,yes,yes,no,1,no,semi-furnished,50670,Köln Innenstadt
+610000,145,5,2,1,no,yes,yes,yes,no,1,no,unfurnished,53604,Bad Honnef
+606000,107,3,1,1,no,no,no,yes,no,0,no,unfurnished,53115,Bonn Zentrum
+605000,153,5,2,1,no,no,yes,yes,no,2,no,unfurnished,53840,Troisdorf
+605000,165,4,3,1,no,no,yes,yes,no,2,no,unfurnished,53123,Bonn Duisdorf
+602000,151,4,3,3,yes,no,yes,yes,no,1,yes,unfurnished,50737,Köln Nippes
+602000,164,4,2,2,no,yes,no,no,no,1,yes,unfurnished,40235,Düsseldorf Flingern
+601000,126,3,1,1,no,no,no,yes,no,2,no,semi-furnished,50825,Köln Ehrenfeld
+599000,134,5,2,1,no,no,yes,no,no,2,no,semi-furnished,53127,Bonn Hardtberg
+599000,143,4,2,2,no,no,no,yes,no,1,no,semi-furnished,50997,Köln Rodenkirchen
+596000,135,4,2,1,no,no,no,yes,no,0,yes,unfurnished,53113,Bonn Zentrum
+594000,122,4,2,2,no,yes,no,yes,no,1,no,unfurnished,53129,Bonn Kessenich
+592000,124,3,2,3,no,yes,no,yes,no,0,no,semi-furnished,53229,Bonn Beuel
+591000,129,4,2,1,yes,no,yes,yes,no,2,yes,unfurnished,40233,Düsseldorf Flingern
+588000,141,4,1,2,no,no,yes,yes,no,1,no,unfurnished,53127,Bonn Hardtberg
+587000,101,3,1,1,no,no,no,no,no,2,yes,unfurnished,53115,Bonn Zentrum
+586000,204,5,3,1,yes,no,yes,yes,no,3,no,unfurnished,50321,Brühl
+586000,87,4,2,1,no,no,no,yes,no,2,yes,semi-furnished,53111,Bonn Zentrum
+585000,194,5,1,3,no,no,yes,yes,no,1,yes,semi-furnished,33609,Bielefeld
+584000,120,4,2,1,no,no,yes,yes,no,2,yes,furnished,53125,Bonn Hardtberg
+582000,113,3,3,1,no,no,no,yes,no,1,no,unfurnished,45239,Essen Werden
+581000,156,5,1,1,no,no,no,yes,no,2,no,unfurnished,53227,Bonn Beuel
+579000,108,4,2,1,yes,no,yes,yes,no,0,yes,unfurnished,40217,Düsseldorf Zentrum
+578000,105,4,1,2,yes,no,yes,yes,no,2,yes,unfurnished,53111,Bonn Zentrum
+578000,163,4,1,2,no,no,yes,yes,no,2,yes,unfurnished,56070,Koblenz
+578000,104,3,1,3,yes,no,yes,yes,no,2,no,semi-furnished,40213,Düsseldorf Zentrum
+578000,170,4,3,1,yes,no,yes,yes,no,2,no,unfurnished,53721,Siegburg
+575000,120,4,1,2,no,no,no,yes,yes,1,no,furnished,53115,Bonn Zentrum
+575000,117,4,1,3,no,no,yes,yes,no,1,no,unfurnished,53115,Bonn Zentrum
+573000,168,4,2,1,yes,no,no,yes,no,2,no,furnished,52062,Aachen
+570000,225,6,1,2,yes,no,yes,yes,no,1,no,unfurnished,45329,Essen Altenessen
+568000,177,4,1,3,no,no,no,yes,no,3,no,unfurnished,51143,Köln Porz
+567000,185,5,2,2,no,no,yes,yes,no,2,no,unfurnished,53347,Alfter
+567000,170,4,1,1,yes,no,yes,yes,no,1,no,unfurnished,45130,Essen Rüttenscheid
+565000,115,4,2,1,yes,no,yes,yes,no,1,yes,semi-furnished,40235,Düsseldorf Flingern
+565000,93,2,1,1,no,yes,yes,yes,no,0,no,semi-furnished,48149,Münster
+564000,183,4,2,2,no,no,yes,yes,no,2,no,unfurnished,33332,Gütersloh
+564000,69,2,1,1,yes,yes,yes,yes,no,2,yes,semi-furnished,50670,Köln Innenstadt
+563000,110,4,1,1,no,no,no,yes,no,2,yes,unfurnished,53113,Bonn Zentrum
+562000,102,2,1,3,no,no,yes,yes,no,1,no,unfurnished,53115,Bonn Zentrum
+562000,169,4,2,2,yes,yes,yes,yes,no,1,no,semi-furnished,51063,Köln Muelheim
+559000,95,3,2,1,no,no,no,yes,no,1,no,furnished,50672,Köln Innenstadt
+556000,236,5,3,2,no,no,yes,yes,no,2,no,unfurnished,33609,Bielefeld
+555000,145,4,2,2,no,no,yes,yes,no,2,no,furnished,53121,Bonn Endenich
+554000,167,4,3,2,yes,no,yes,no,no,2,no,unfurnished,53227,Bonn Beuel
+554000,104,3,1,3,no,no,no,yes,no,0,no,semi-furnished,40547,Düsseldorf Oberkassel
+553000,131,4,2,1,no,yes,no,no,no,2,no,unfurnished,53111,Bonn Zentrum
+552000,129,4,1,1,yes,no,no,yes,no,1,no,semi-furnished,53121,Bonn Endenich
+551000,173,5,3,3,yes,no,yes,yes,no,2,yes,semi-furnished,53424,Remagen
+550000,175,5,2,1,no,no,yes,yes,no,2,no,unfurnished,53721,Siegburg
+549000,97,2,1,1,no,no,no,yes,no,1,yes,semi-furnished,53115,Bonn Zentrum
+548000,95,3,2,1,no,no,no,yes,no,0,yes,unfurnished,53179,Bonn Bad Godesberg
+548000,165,4,3,1,no,yes,no,yes,no,1,no,unfurnished,45329,Essen Altenessen
+547000,171,5,1,1,no,no,yes,yes,no,1,yes,unfurnished,32423,Minden
+547000,93,3,2,1,yes,no,yes,yes,no,1,yes,furnished,53115,Bonn Zentrum
+547000,148,4,2,1,yes,no,yes,yes,no,2,yes,unfurnished,53359,Rheinbach
+547000,89,2,1,1,no,no,yes,yes,no,0,yes,semi-furnished,50999,Köln Rodenkirchen
+546000,99,3,2,1,no,no,no,yes,no,1,no,unfurnished,50670,Köln Innenstadt
+545000,96,3,1,1,no,no,no,yes,yes,2,yes,unfurnished,50935,Köln Lindenthal
+544000,205,4,1,3,no,yes,yes,yes,no,2,no,unfurnished,53489,Sinzig
+544000,111,3,1,1,yes,no,no,no,no,0,yes,furnished,50670,Köln Innenstadt
+544000,98,3,2,3,no,yes,yes,yes,yes,2,no,unfurnished,53179,Bonn Bad Godesberg
+538000,149,3,1,1,no,no,yes,yes,no,2,yes,unfurnished,53347,Alfter
+537000,136,4,1,2,no,yes,yes,yes,no,2,no,semi-furnished,53179,Bonn Bad Godesberg
+536000,118,2,2,3,no,no,yes,yes,no,0,yes,semi-furnished,53119,Bonn Tannenbusch
+536000,213,6,3,3,yes,yes,yes,yes,no,1,no,semi-furnished,53489,Sinzig
+535000,92,3,2,3,no,no,yes,yes,no,0,no,unfurnished,50931,Köln Lindenthal
+535000,102,3,1,3,no,yes,yes,yes,no,2,yes,semi-furnished,53115,Bonn Zentrum
+534000,135,4,1,3,yes,no,yes,yes,no,0,no,furnished,40233,Düsseldorf Flingern
+533000,128,4,2,1,no,no,yes,yes,no,2,no,semi-furnished,53757,Sankt Augustin
+531000,210,5,3,2,no,yes,no,yes,no,1,yes,unfurnished,45329,Essen Altenessen
+530000,133,3,1,1,yes,yes,no,no,no,1,yes,unfurnished,53129,Bonn Kessenich
+530000,211,5,3,3,no,no,yes,yes,no,1,no,unfurnished,45657,Recklinghausen
+530000,124,3,2,3,no,no,yes,yes,no,1,yes,unfurnished,44795,Bochum
+527000,101,4,2,3,no,no,yes,no,no,2,no,semi-furnished,53113,Bonn Zentrum
+527000,98,3,2,3,no,no,yes,yes,no,1,no,unfurnished,40223,Düsseldorf Bilk
+524000,76,1,2,1,no,no,no,no,yes,0,yes,semi-furnished,40549,Düsseldorf Oberkassel
+522000,139,3,2,1,no,no,no,yes,no,2,no,semi-furnished,44135,Dortmund Zentrum
+520000,135,4,2,1,no,no,yes,yes,no,1,no,unfurnished,45127,Essen Zentrum
+519000,112,3,1,1,no,yes,no,yes,no,1,yes,semi-furnished,53113,Bonn Zentrum
+519000,118,3,2,2,yes,no,yes,yes,no,0,no,semi-furnished,48147,Münster
+519000,118,3,2,3,no,no,yes,yes,yes,0,no,unfurnished,53125,Bonn Hardtberg
+518000,152,4,3,2,yes,no,yes,yes,yes,1,no,semi-furnished,51377,Leverkusen
+517000,151,5,3,1,no,no,yes,yes,no,2,no,semi-furnished,52064,Aachen
+517000,170,5,1,1,no,no,yes,yes,no,1,no,semi-furnished,53125,Bonn Hardtberg
+517000,202,5,3,3,yes,yes,no,no,no,3,no,semi-furnished,45473,Mülheim a.d. Ruhr
+516000,118,4,2,1,no,no,yes,yes,no,1,yes,unfurnished,53721,Siegburg
+513000,98,3,1,1,no,yes,no,yes,no,0,yes,furnished,51377,Leverkusen
+512000,138,3,3,3,no,no,no,yes,no,3,no,unfurnished,50321,Brühl
+512000,79,3,1,1,no,yes,no,yes,no,1,no,unfurnished,50667,Köln Innenstadt
+511000,106,3,1,1,no,no,yes,yes,no,0,yes,unfurnished,53115,Bonn Zentrum
+511000,85,2,2,1,no,no,no,yes,no,2,yes,unfurnished,53115,Bonn Poppelsdorf
+510000,71,2,1,1,yes,no,no,yes,no,2,yes,semi-furnished,50670,Köln Innenstadt
+507000,124,3,2,2,no,no,yes,yes,no,2,no,semi-furnished,53227,Bonn Beuel
+505000,148,5,1,3,no,yes,yes,yes,no,2,no,unfurnished,51467,Bergisch Gladbach
+504000,167,4,1,3,no,yes,no,yes,no,2,no,semi-furnished,53127,Bonn Hardtberg
+503000,131,4,1,1,no,yes,yes,yes,no,1,no,unfurnished,53797,Lohmar
+502000,165,5,1,3,no,no,yes,yes,no,3,no,unfurnished,52062,Aachen
+500000,71,2,2,1,no,no,yes,yes,yes,2,no,furnished,50937,Köln Lindenthal
+499000,174,5,3,3,yes,no,yes,yes,no,3,no,semi-furnished,44135,Dortmund Zentrum
+498000,111,4,1,1,no,no,no,yes,yes,0,no,unfurnished,53111,Bonn Zentrum
+497000,110,3,2,3,no,no,yes,yes,no,0,no,unfurnished,41464,Neuss
+497000,248,6,1,3,no,no,yes,yes,no,1,no,unfurnished,59755,Arnsberg
+496000,122,3,2,2,no,no,yes,yes,no,2,yes,furnished,53844,Troisdorf
+496000,101,4,2,3,no,no,yes,yes,no,1,yes,semi-furnished,44139,Dortmund Zentrum
+493000,104,3,2,1,no,no,no,yes,no,2,no,unfurnished,53229,Bonn Beuel
+492000,128,4,2,3,no,no,yes,no,no,2,yes,semi-furnished,51067,Köln Muelheim
+492000,179,4,1,2,no,no,yes,yes,no,3,no,unfurnished,53773,Hennef (Sieg)
+491000,222,6,1,2,no,no,yes,yes,no,1,yes,unfurnished,44625,Herne
+491000,94,4,2,2,yes,no,no,yes,no,1,no,furnished,53115,Bonn Poppelsdorf
+490000,90,3,1,2,no,no,yes,yes,no,1,yes,furnished,53127,Bonn Hardtberg
+489000,112,4,1,3,no,no,yes,yes,no,2,no,semi-furnished,53121,Bonn Endenich
+488000,142,4,2,1,no,no,no,yes,yes,1,no,furnished,42859,Remscheid
+486000,100,3,2,1,yes,no,no,yes,no,1,no,unfurnished,50999,Köln Rodenkirchen
+484000,98,3,2,1,no,no,yes,yes,no,1,no,unfurnished,53227,Bonn Beuel
+484000,139,5,1,2,no,yes,yes,yes,no,2,no,semi-furnished,50767,Köln Chorweiler
+483000,124,4,2,3,no,no,no,yes,no,1,no,furnished,53121,Bonn Endenich
+480000,184,5,1,3,no,no,yes,yes,yes,3,no,unfurnished,46047,Oberhausen
+479000,144,5,1,3,yes,no,no,yes,no,2,no,semi-furnished,50259,Pulheim
+478000,105,2,1,3,yes,no,yes,yes,yes,1,no,furnished,50996,Köln Rodenkirchen
+478000,135,4,2,1,yes,no,no,yes,no,1,yes,unfurnished,50354,Hürth
+478000,99,3,1,1,no,yes,no,yes,no,2,no,furnished,53227,Bonn Beuel
+477000,130,3,1,2,no,no,no,no,no,0,yes,semi-furnished,41466,Neuss
+475000,124,3,2,1,no,no,yes,yes,no,1,no,furnished,53604,Bad Honnef
+475000,80,2,3,1,no,no,yes,yes,yes,1,no,unfurnished,50670,Köln Innenstadt
+475000,86,2,2,1,yes,no,no,yes,no,1,yes,unfurnished,50969,Köln Suelz
+475000,125,4,2,3,no,yes,yes,yes,yes,1,no,unfurnished,53127,Bonn Hardtberg
+475000,92,3,2,1,no,no,no,yes,no,2,no,semi-furnished,48149,Münster
+474000,117,2,1,1,no,no,yes,no,no,2,no,unfurnished,50969,Köln Suelz
+474000,133,4,3,1,no,no,yes,yes,no,2,no,unfurnished,56068,Koblenz
+474000,103,3,1,1,no,no,yes,no,no,1,no,semi-furnished,53121,Bonn Endenich
+472000,177,5,3,3,yes,no,no,no,no,3,no,unfurnished,47058,Duisburg
+472000,117,3,2,3,no,no,yes,yes,no,2,no,unfurnished,40597,Düsseldorf Benrath
+472000,81,3,2,1,no,yes,no,yes,no,0,no,unfurnished,53115,Bonn Zentrum
+472000,108,4,1,1,yes,no,no,yes,no,0,no,semi-furnished,53115,Bonn Poppelsdorf
+472000,144,4,1,1,no,yes,yes,yes,no,1,no,unfurnished,50389,Wesseling
+470000,155,5,2,2,no,no,yes,yes,no,2,yes,unfurnished,45326,Essen Altenessen
+469000,122,4,1,1,no,no,no,yes,no,1,no,unfurnished,53179,Bonn Bad Godesberg
+469000,133,4,2,3,no,no,no,yes,no,0,no,semi-furnished,53721,Siegburg
+467000,164,4,2,3,no,no,yes,no,no,1,no,unfurnished,45130,Essen Zentrum
+465000,130,4,1,3,no,yes,yes,yes,no,2,yes,furnished,53842,Troisdorf
+465000,92,3,1,3,yes,no,no,yes,no,2,no,unfurnished,53175,Bonn Bad Godesberg
+464000,136,3,3,1,yes,no,yes,yes,no,2,no,unfurnished,53332,Bornheim
+463000,116,3,2,3,yes,no,yes,yes,no,2,no,unfurnished,53347,Alfter
+463000,87,3,2,1,no,yes,no,yes,no,1,no,unfurnished,53111,Bonn Zentrum
+460000,118,3,2,1,no,yes,yes,yes,no,0,no,unfurnished,50737,Köln Nippes
+460000,129,4,1,2,no,yes,yes,yes,no,2,yes,unfurnished,53127,Bonn Hardtberg
+457000,129,4,2,2,no,no,no,yes,no,1,yes,unfurnished,44789,Bochum
+457000,248,6,1,1,no,no,yes,yes,no,3,no,unfurnished,58509,Lüdenscheid
+455000,122,3,2,1,no,yes,no,yes,no,1,no,unfurnished,50354,Hürth
+453000,82,3,2,1,no,no,no,yes,no,2,yes,unfurnished,53115,Bonn Poppelsdorf
+453000,156,4,1,2,no,no,yes,yes,no,3,no,unfurnished,53773,Hennef (Sieg)
+453000,153,3,2,3,no,no,yes,yes,no,1,no,semi-furnished,44328,Dortmund Scharnhorst
+452000,107,3,2,3,yes,no,yes,yes,no,1,no,semi-furnished,50999,Köln Rodenkirchen
+452000,123,4,1,1,no,no,no,yes,no,1,yes,semi-furnished,53347,Alfter
+449000,144,4,2,1,no,no,yes,yes,no,1,no,unfurnished,53844,Troisdorf
+448000,144,5,2,3,no,no,yes,no,no,2,no,semi-furnished,41061,Mönchengladbach
+447000,102,3,2,2,no,yes,yes,yes,no,1,no,semi-furnished,53177,Bonn Bad Godesberg
+447000,124,3,1,1,no,no,no,yes,no,1,yes,furnished,53119,Bonn Tannenbusch
+446000,84,2,1,1,no,no,no,no,no,2,no,unfurnished,50672,Köln Innenstadt
+446000,125,4,2,1,yes,no,no,yes,no,2,no,unfurnished,53115,Bonn Poppelsdorf
+445000,112,3,2,1,no,no,no,yes,no,1,yes,unfurnished,40597,Düsseldorf Benrath
+445000,83,2,2,1,no,no,yes,yes,no,2,no,unfurnished,48155,Münster
+445000,169,4,2,1,no,yes,yes,no,no,2,yes,unfurnished,53489,Sinzig
+443000,106,3,2,3,no,no,yes,yes,no,1,no,unfurnished,53127,Bonn Venusberg
+443000,141,4,3,2,no,no,yes,yes,no,1,no,unfurnished,53125,Bonn Hardtberg
+443000,100,3,1,1,no,yes,yes,yes,no,1,no,unfurnished,53125,Bonn Hardtberg
+442000,119,3,1,2,no,no,yes,yes,no,1,no,semi-furnished,33602,Bielefeld
+442000,166,4,3,3,no,no,yes,yes,no,3,no,unfurnished,50389,Wesseling
+439000,121,3,2,1,no,yes,no,yes,no,2,yes,unfurnished,50354,Hürth
+439000,115,4,1,1,yes,yes,no,yes,no,1,no,semi-furnished,53125,Bonn Hardtberg
+439000,111,3,2,3,no,no,yes,yes,no,2,yes,unfurnished,52072,Aachen
+437000,105,3,2,1,no,no,yes,yes,yes,0,no,unfurnished,50827,Köln Ehrenfeld
+436000,100,3,3,1,no,no,yes,yes,no,1,yes,semi-furnished,45470,Mülheim a.d. Ruhr
+436000,74,3,2,1,no,no,yes,yes,no,2,yes,unfurnished,50679,Köln Deutz
+436000,107,3,1,1,no,no,yes,yes,no,0,no,semi-furnished,56070,Koblenz
+435000,128,3,2,1,yes,no,no,yes,no,0,yes,unfurnished,50354,Hürth
+435000,153,4,2,1,no,no,yes,yes,no,1,no,furnished,53474,Bad Neuenahr-Ahrweiler
+434000,133,3,2,1,no,no,no,yes,no,2,no,semi-furnished,53332,Bornheim
+431000,90,2,2,1,no,no,yes,yes,no,2,no,unfurnished,44227,Dortmund Hombruch
+431000,85,3,1,1,no,no,no,no,no,0,no,semi-furnished,53115,Bonn Poppelsdorf
+431000,110,2,2,2,yes,no,yes,no,yes,2,yes,furnished,53123,Bonn Duisdorf
+430000,79,2,1,3,no,no,no,yes,no,1,no,unfurnished,53115,Bonn Poppelsdorf
+430000,97,2,1,3,no,no,yes,no,no,0,no,unfurnished,53113,Bonn Zentrum
+430000,158,4,3,1,no,no,yes,yes,no,3,no,unfurnished,42853,Remscheid
+429000,109,4,1,1,no,no,yes,yes,no,2,no,unfurnished,51149,Köln Porz
+429000,93,3,1,2,no,no,yes,no,no,2,yes,unfurnished,48157,Münster
+428000,124,3,1,1,yes,yes,yes,yes,no,3,no,unfurnished,53179,Bonn Bad Godesberg
+428000,107,3,1,2,no,no,no,yes,no,1,no,semi-furnished,53179,Bonn Bad Godesberg
+427000,184,5,2,3,no,no,yes,yes,no,1,no,unfurnished,33602,Bielefeld
+425000,163,4,2,3,no,no,yes,yes,no,1,no,semi-furnished,53424,Remagen
+424000,120,4,3,2,no,no,yes,yes,no,3,no,unfurnished,51427,Bergisch Gladbach
+424000,110,4,1,2,yes,no,yes,yes,no,1,no,unfurnished,51107,Köln Kalk
+423000,94,4,2,1,no,no,no,yes,no,0,yes,unfurnished,50737,Köln Nippes
+423000,106,3,2,2,yes,no,yes,yes,no,1,no,semi-furnished,50735,Köln Nippes
+423000,104,4,2,1,no,no,no,yes,no,2,yes,unfurnished,53123,Bonn Duisdorf
+422000,126,3,3,1,no,no,yes,yes,no,3,yes,furnished,53424,Remagen
+422000,110,3,1,1,yes,no,yes,yes,no,1,no,unfurnished,53173,Bonn Bad Godesberg
+421000,85,2,1,2,no,yes,no,yes,no,0,no,unfurnished,53177,Bonn Bad Godesberg
+418000,164,4,1,3,yes,no,yes,yes,no,2,no,unfurnished,42857,Remscheid
+416000,113,3,2,3,no,no,yes,no,no,2,no,unfurnished,53840,Troisdorf
+415000,117,3,2,3,no,no,yes,yes,no,2,yes,unfurnished,53604,Bad Honnef
+414000,118,4,2,2,yes,no,no,yes,no,0,no,semi-furnished,50997,Köln Rodenkirchen
+413000,98,3,2,1,no,yes,no,yes,no,0,yes,semi-furnished,50259,Pulheim
+411000,149,4,1,3,no,no,yes,no,yes,2,no,semi-furnished,56073,Koblenz
+411000,88,3,1,1,no,no,no,yes,no,0,no,semi-furnished,50827,Köln Ehrenfeld
+411000,132,5,2,2,no,no,yes,yes,no,1,no,unfurnished,41747,Viersen
+411000,145,5,2,2,yes,yes,yes,yes,no,1,no,semi-furnished,46238,Bottrop
+410000,100,2,1,2,no,yes,yes,yes,no,0,yes,unfurnished,53842,Troisdorf
+408000,111,2,2,1,no,no,yes,yes,no,2,yes,furnished,45127,Essen Zentrum
+407000,133,4,2,1,yes,no,no,yes,yes,2,yes,unfurnished,33613,Bielefeld
+406000,122,4,1,1,yes,no,yes,yes,no,2,no,unfurnished,51107,Köln Kalk
+404000,148,5,2,1,no,no,yes,no,no,2,no,unfurnished,45659,Recklinghausen
+404000,175,5,1,2,no,no,no,yes,no,1,no,unfurnished,53797,Lohmar
+404000,180,4,2,2,no,no,no,yes,yes,3,no,unfurnished,53489,Sinzig
+403000,97,3,2,1,no,yes,no,yes,no,2,no,semi-furnished,53127,Bonn Hardtberg
+402000,100,3,2,1,no,no,yes,yes,yes,1,no,semi-furnished,53332,Bornheim
+401000,84,2,2,1,no,no,no,yes,no,0,no,furnished,53129,Bonn Kessenich
+400000,94,4,1,1,no,no,no,yes,no,1,yes,unfurnished,53639,Königswinter
+399000,104,3,1,1,no,no,no,yes,no,2,no,unfurnished,48157,Münster
+398000,126,4,2,1,no,yes,no,yes,no,1,no,unfurnished,53721,Siegburg
+397000,112,2,2,2,yes,yes,yes,yes,no,1,yes,unfurnished,53125,Bonn Hardtberg
+397000,105,4,1,1,no,no,no,yes,no,2,no,unfurnished,53127,Bonn Hardtberg
+396000,100,3,1,2,no,no,yes,yes,no,1,no,unfurnished,44225,Dortmund Hombruch
+395000,123,3,2,2,yes,no,no,yes,no,3,no,semi-furnished,51147,Köln Porz
+395000,120,4,2,1,no,no,no,yes,no,1,no,unfurnished,53123,Bonn Duisdorf
+395000,98,3,1,3,yes,no,no,yes,no,2,no,unfurnished,53604,Bad Honnef
+395000,123,3,2,1,no,no,no,no,no,2,no,unfurnished,40885,Ratingen
+394000,94,3,2,2,no,no,no,yes,no,1,yes,unfurnished,50737,Köln Nippes
+393000,125,3,1,1,no,no,no,yes,no,1,no,semi-furnished,53757,Sankt Augustin
+390000,108,4,2,1,no,no,no,yes,no,1,no,semi-furnished,53846,Troisdorf
+390000,143,4,2,1,no,no,yes,yes,no,1,no,semi-furnished,53757,Sankt Augustin
+390000,129,5,2,2,yes,no,no,yes,no,2,yes,unfurnished,58640,Iserlohn
+389000,97,2,1,1,no,no,yes,yes,no,1,no,unfurnished,53121,Bonn Endenich
+388000,104,3,1,1,no,no,yes,yes,no,2,yes,furnished,53757,Sankt Augustin
+388000,67,3,1,1,no,no,no,yes,no,1,yes,unfurnished,53113,Bonn Zentrum
+387000,106,3,3,1,no,no,no,yes,no,1,no,unfurnished,50769,Köln Chorweiler
+386000,89,2,1,1,no,no,no,yes,no,2,yes,unfurnished,53127,Bonn Hardtberg
+385000,95,3,2,2,yes,no,no,yes,yes,1,no,unfurnished,45239,Essen Werden
+384000,257,6,3,2,no,no,no,yes,no,3,no,unfurnished,51570,Windeck
+383000,117,4,2,1,no,no,no,yes,no,1,no,unfurnished,50769,Köln Chorweiler
+382000,85,2,1,1,no,yes,no,yes,no,0,no,semi-furnished,53129,Bonn Kessenich
+382000,114,3,2,1,no,no,yes,yes,no,0,yes,unfurnished,47803,Krefeld
+381000,256,6,1,1,no,no,no,yes,no,3,yes,unfurnished,45889,Gelsenkirchen
+381000,158,5,2,3,no,no,no,yes,no,2,no,unfurnished,52070,Aachen
+379000,120,3,2,3,yes,no,no,yes,yes,2,yes,unfurnished,45127,Essen Zentrum
+379000,76,2,2,1,no,no,no,yes,no,1,no,unfurnished,53129,Bonn Kessenich
+378000,162,5,1,1,no,no,no,yes,no,2,no,unfurnished,52062,Aachen
+378000,126,3,2,2,no,yes,no,no,no,1,no,semi-furnished,53840,Troisdorf
+377000,137,3,2,1,no,no,yes,yes,yes,2,no,unfurnished,53359,Rheinbach
+377000,158,4,1,1,no,no,no,yes,no,2,no,unfurnished,58640,Iserlohn
+377000,112,3,2,2,no,no,yes,yes,no,2,yes,semi-furnished,47057,Duisburg
+377000,125,3,1,1,no,no,no,yes,no,1,yes,unfurnished,42853,Remscheid
+377000,106,3,2,3,no,no,yes,yes,no,1,yes,semi-furnished,51149,Köln Porz
+376000,155,5,1,3,yes,no,no,yes,no,1,yes,semi-furnished,59069,Hamm
+373000,114,2,1,1,no,no,no,yes,no,0,no,unfurnished,53846,Troisdorf
+373000,73,2,1,1,no,no,yes,yes,no,0,yes,semi-furnished,50259,Pulheim
+373000,90,3,1,3,no,no,yes,yes,no,2,no,unfurnished,53604,Bad Honnef
+371000,157,4,2,1,no,no,no,yes,no,2,yes,unfurnished,44328,Dortmund Scharnhorst
+371000,90,3,1,1,no,no,no,yes,no,0,no,semi-furnished,50733,Köln Nippes
+371000,81,2,2,1,no,no,no,no,no,1,yes,semi-furnished,53111,Bonn Zentrum
+370000,182,5,3,1,no,no,no,yes,no,3,no,unfurnished,32423,Minden
+370000,175,5,2,3,no,no,yes,yes,no,2,no,semi-furnished,58507,Lüdenscheid
+368000,96,3,2,1,no,no,no,yes,no,0,no,unfurnished,50733,Köln Nippes
+367000,108,3,1,2,no,no,no,yes,yes,0,yes,semi-furnished,53347,Alfter
+363000,97,3,1,1,yes,no,no,yes,no,1,no,semi-furnished,53721,Siegburg
+362000,157,4,2,3,no,no,no,yes,no,3,no,unfurnished,53804,Much
+362000,135,4,2,1,no,no,yes,yes,no,2,no,unfurnished,47802,Krefeld
+361000,155,5,2,2,no,no,yes,yes,no,1,no,semi-furnished,45657,Recklinghausen
+361000,94,4,1,1,no,no,no,yes,no,2,no,unfurnished,51143,Köln Porz
+360000,105,3,2,3,no,no,yes,yes,no,0,no,unfurnished,52064,Aachen
+360000,82,3,1,1,no,no,no,yes,no,2,no,unfurnished,53111,Bonn Zentrum
+360000,162,5,2,2,no,no,yes,yes,no,2,no,semi-furnished,33104,Paderborn
+359000,124,4,1,3,no,no,no,yes,no,0,yes,unfurnished,44795,Bochum
+358000,131,4,2,3,no,no,yes,yes,no,1,no,unfurnished,46236,Bottrop
+358000,135,4,1,1,no,no,no,yes,no,2,no,semi-furnished,42857,Remscheid
+358000,130,3,2,1,no,no,no,yes,yes,1,no,unfurnished,53359,Rheinbach
+357000,61,2,1,1,no,no,no,yes,no,2,yes,semi-furnished,53129,Bonn Kessenich
+357000,181,5,1,2,no,no,yes,yes,no,1,yes,unfurnished,42107,Wuppertal
+357000,115,2,2,1,no,no,no,yes,no,1,no,unfurnished,53177,Bonn Bad Godesberg
+356000,133,4,1,1,no,no,yes,yes,no,0,yes,semi-furnished,50765,Köln Chorweiler
+355000,115,3,2,2,no,no,yes,yes,yes,1,no,unfurnished,45326,Essen Altenessen
+355000,99,3,1,1,no,no,no,no,no,0,no,unfurnished,53127,Bonn Venusberg
+355000,101,3,2,3,no,no,yes,yes,no,2,no,unfurnished,47798,Krefeld
+354000,110,2,1,1,no,no,no,yes,no,2,no,semi-furnished,50259,Pulheim
+352000,151,5,2,2,no,no,no,yes,no,2,yes,semi-furnished,47058,Duisburg
+352000,129,4,2,3,yes,yes,no,yes,yes,0,no,unfurnished,50389,Wesseling
+352000,97,4,2,1,no,no,no,yes,yes,0,yes,semi-furnished,44797,Bochum
+351000,99,4,2,3,no,no,no,yes,no,2,no,unfurnished,44139,Dortmund Zentrum
+350000,100,2,2,1,no,no,no,yes,yes,1,no,semi-furnished,53119,Bonn Tannenbusch
+350000,104,2,2,1,yes,yes,no,no,no,0,no,semi-furnished,48145,Münster
+350000,118,3,2,3,no,no,no,yes,no,0,no,unfurnished,45127,Essen Zentrum
+350000,97,3,1,1,yes,no,no,yes,no,2,yes,unfurnished,53604,Bad Honnef
+349000,112,4,1,1,no,no,no,yes,no,2,no,unfurnished,51429,Bergisch Gladbach
+349000,121,3,2,1,yes,no,yes,yes,no,2,yes,semi-furnished,33330,Gütersloh
+348000,87,3,2,3,no,no,no,yes,no,0,no,furnished,51067,Köln Muelheim
+347000,109,2,2,1,yes,no,no,no,no,2,no,unfurnished,53177,Bonn Bad Godesberg
+347000,97,3,2,1,yes,no,no,yes,yes,0,no,semi-furnished,50321,Brühl
+346000,132,2,2,1,no,no,no,yes,no,1,no,semi-furnished,33602,Bielefeld
+346000,117,4,1,3,no,no,no,yes,no,2,yes,furnished,53424,Remagen
+344000,98,3,2,1,no,no,yes,yes,no,2,no,furnished,50354,Hürth
+344000,173,4,2,1,no,no,yes,yes,no,2,no,unfurnished,51570,Windeck
+344000,99,3,1,1,no,no,yes,yes,no,2,no,semi-furnished,53125,Bonn Hardtberg
+342000,133,4,2,3,yes,no,yes,no,no,2,no,unfurnished,45472,Mülheim a.d. Ruhr
+341000,131,3,2,1,no,no,no,no,no,1,no,unfurnished,58091,Hagen
+341000,107,4,1,3,yes,no,no,yes,no,1,no,unfurnished,45128,Essen Zentrum
+340000,119,3,1,2,no,no,no,yes,no,2,yes,unfurnished,45657,Recklinghausen
+336000,90,2,1,1,no,no,yes,no,no,2,yes,unfurnished,53721,Siegburg
+335000,125,4,1,1,no,no,no,yes,no,1,no,unfurnished,47058,Duisburg
+334000,162,5,1,3,no,no,yes,yes,no,1,no,unfurnished,47057,Duisburg
+334000,177,5,3,1,no,no,yes,yes,no,1,no,unfurnished,47058,Duisburg
+333000,109,3,2,1,no,no,no,yes,no,2,no,semi-furnished,51570,Windeck
+330000,111,4,1,3,no,no,yes,yes,no,1,no,unfurnished,53125,Bonn Hardtberg
+329000,113,4,2,1,no,no,yes,yes,yes,2,yes,unfurnished,52353,Düren
+329000,143,5,2,1,no,no,no,yes,no,1,no,semi-furnished,32425,Minden
+327000,68,1,1,1,yes,yes,no,yes,no,1,yes,unfurnished,53115,Bonn Zentrum
+326000,103,3,1,1,no,no,no,no,no,0,no,semi-furnished,53424,Remagen
+326000,129,3,2,1,no,no,no,yes,no,1,no,semi-furnished,44139,Dortmund Zentrum
+325000,121,4,2,1,no,no,no,yes,yes,1,no,semi-furnished,44137,Dortmund Zentrum
+322000,130,3,1,3,no,yes,no,yes,no,0,no,furnished,53489,Sinzig
+322000,101,3,1,1,no,no,yes,yes,yes,0,no,unfurnished,51149,Köln Porz
+322000,121,4,1,3,no,no,no,no,yes,0,no,unfurnished,42107,Wuppertal
+321000,116,3,1,1,no,no,yes,yes,no,2,no,unfurnished,53913,Swisttal
+321000,138,4,1,1,no,no,no,yes,no,1,yes,furnished,58636,Iserlohn
+320000,104,3,2,3,no,no,no,yes,no,1,yes,semi-furnished,41464,Neuss
+320000,109,3,1,1,no,yes,no,yes,no,1,no,unfurnished,33334,Gütersloh
+319000,123,3,3,1,no,no,no,yes,no,1,yes,furnished,45879,Gelsenkirchen
+319000,74,2,1,1,yes,no,no,yes,no,0,no,semi-furnished,45131,Essen Rüttenscheid
+319000,126,3,2,2,yes,yes,yes,yes,no,2,no,semi-furnished,53340,Meckenheim
+319000,83,3,2,1,no,no,no,yes,no,2,no,unfurnished,50354,Hürth
+318000,127,3,3,3,no,no,yes,yes,no,3,no,unfurnished,53474,Bad Neuenahr-Ahrweiler
+318000,136,3,1,2,no,no,no,yes,no,2,no,unfurnished,58638,Iserlohn
+317000,144,4,2,2,no,no,yes,yes,no,1,no,unfurnished,53783,Eitorf
+317000,133,4,1,3,no,no,no,no,no,2,no,semi-furnished,50767,Köln Chorweiler
+316000,92,2,2,2,no,yes,yes,yes,no,0,yes,semi-furnished,52349,Düren
+314000,144,4,1,3,yes,no,yes,yes,no,1,yes,unfurnished,44791,Bochum
+314000,106,3,2,2,no,yes,yes,yes,no,1,yes,semi-furnished,52068,Aachen
+313000,108,4,1,3,no,yes,no,yes,no,2,yes,unfurnished,53879,Euskirchen
+313000,119,4,2,1,yes,no,no,yes,no,1,no,unfurnished,53721,Siegburg
+313000,94,2,1,1,no,no,no,yes,no,0,yes,furnished,51465,Bergisch Gladbach
+312000,84,2,2,1,no,yes,yes,yes,no,0,no,unfurnished,56072,Koblenz
+312000,61,2,1,1,yes,yes,yes,yes,no,1,yes,semi-furnished,53177,Bonn Bad Godesberg
+312000,109,3,1,1,no,no,yes,yes,no,2,no,furnished,53797,Lohmar
+310000,139,4,2,1,no,no,no,yes,no,2,no,unfurnished,53773,Hennef (Sieg)
+310000,55,2,1,1,no,no,no,yes,no,0,no,unfurnished,53111,Bonn Zentrum
+310000,65,3,1,1,no,no,no,yes,yes,1,no,unfurnished,50823,Köln Ehrenfeld
+308000,81,2,1,1,no,no,no,yes,no,2,no,unfurnished,50735,Köln Nippes
+308000,79,3,1,1,no,no,no,yes,no,0,no,semi-furnished,50735,Köln Nippes
+307000,82,3,2,1,no,no,no,yes,yes,1,no,semi-furnished,53757,Sankt Augustin
+307000,87,2,2,1,no,no,no,yes,no,1,no,unfurnished,53604,Bad Honnef
+306000,79,2,1,1,no,no,no,yes,no,0,no,semi-furnished,50226,Frechen
+306000,92,3,1,2,no,no,no,yes,no,1,no,unfurnished,51429,Bergisch Gladbach
+305000,68,2,2,1,no,no,yes,yes,no,1,no,unfurnished,50823,Köln Ehrenfeld
+304000,143,4,1,1,no,no,yes,yes,no,1,no,unfurnished,53489,Sinzig
+301000,79,2,1,1,no,no,yes,no,no,0,no,unfurnished,40223,Düsseldorf Bilk
+298000,77,2,2,1,no,yes,yes,yes,no,0,no,unfurnished,53347,Alfter
+296000,132,3,1,1,no,no,no,no,no,3,yes,semi-furnished,59069,Hamm
+296000,94,3,2,2,no,yes,no,yes,no,0,no,unfurnished,50259,Pulheim
+296000,156,5,2,2,no,no,no,yes,no,2,no,unfurnished,41065,Mönchengladbach
+294000,98,3,1,3,yes,no,no,yes,no,1,yes,unfurnished,53859,Niederkassel
+291000,128,3,2,3,no,no,yes,yes,no,0,no,semi-furnished,46238,Bottrop
+290000,101,3,2,1,no,no,no,yes,no,2,no,unfurnished,57074,Siegen
+290000,95,3,1,1,no,no,no,yes,no,0,yes,unfurnished,53359,Rheinbach
+290000,75,2,1,1,no,no,no,yes,no,1,no,unfurnished,53121,Bonn Endenich
+290000,49,1,2,1,no,no,no,no,no,0,yes,furnished,53127,Bonn Venusberg
+289000,100,3,3,1,yes,no,yes,yes,no,2,yes,unfurnished,53340,Meckenheim
+288000,109,4,1,1,no,yes,no,yes,no,1,no,unfurnished,51379,Leverkusen
+288000,111,3,3,1,no,no,no,yes,no,2,no,unfurnished,53913,Swisttal
+287000,101,3,2,1,no,yes,no,yes,no,0,no,semi-furnished,53424,Remagen
+286000,79,3,2,1,no,no,no,yes,no,2,yes,furnished,51145,Köln Porz
+285000,109,4,2,1,yes,yes,yes,no,no,1,no,unfurnished,53913,Swisttal
+285000,96,2,1,1,yes,no,no,yes,yes,0,no,unfurnished,33604,Bielefeld
+285000,121,3,2,3,yes,yes,no,yes,yes,1,no,semi-furnished,53881,Euskirchen
+284000,121,3,2,1,no,no,no,yes,no,0,no,unfurnished,53846,Troisdorf
+283000,100,3,1,1,no,no,no,yes,no,2,yes,unfurnished,57072,Siegen
+283000,127,4,1,2,no,yes,yes,yes,no,1,no,unfurnished,50169,Kerpen
+280000,106,3,1,3,yes,yes,no,yes,no,2,no,unfurnished,53844,Troisdorf
+278000,120,3,1,1,no,no,yes,yes,no,1,no,semi-furnished,50169,Kerpen
+278000,127,3,1,1,no,no,yes,yes,no,1,no,semi-furnished,41063,Mönchengladbach
+277000,119,3,2,3,no,no,no,yes,no,2,yes,semi-furnished,44795,Bochum
+276000,80,3,2,1,yes,no,no,yes,no,1,no,unfurnished,53721,Siegburg
+276000,87,3,1,1,no,no,no,yes,no,2,no,unfurnished,45127,Essen Zentrum
+275000,69,2,1,1,no,no,no,yes,no,1,no,semi-furnished,53639,Königswinter
+273000,104,3,2,2,no,no,no,yes,no,2,no,unfurnished,51469,Bergisch Gladbach
+273000,58,2,2,1,no,no,no,yes,yes,1,yes,unfurnished,53115,Bonn Zentrum
+271000,108,3,2,3,no,no,no,no,no,0,no,furnished,53842,Troisdorf
+270000,149,5,2,2,no,yes,no,yes,no,1,no,unfurnished,45657,Recklinghausen
+269000,56,2,2,1,no,yes,no,yes,yes,2,no,unfurnished,50939,Köln Lindenthal
+269000,117,4,2,3,yes,no,yes,yes,no,1,no,unfurnished,53474,Bad Neuenahr-Ahrweiler
+267000,116,3,1,1,yes,no,yes,yes,no,1,no,semi-furnished,53773,Hennef (Sieg)
+267000,98,3,1,1,no,yes,no,yes,no,1,no,semi-furnished,41063,Mönchengladbach
+266000,134,4,2,1,no,no,yes,yes,no,0,no,semi-furnished,32049,Herford
+266000,140,5,2,3,no,no,no,yes,no,1,no,unfurnished,47802,Krefeld
+266000,104,2,2,1,yes,no,no,yes,no,0,no,unfurnished,53123,Bonn Duisdorf
+264000,81,3,2,1,no,no,no,yes,no,0,yes,unfurnished,58455,Witten
+263000,151,5,3,3,no,no,yes,yes,no,1,no,furnished,47057,Duisburg
+263000,68,3,1,1,no,yes,no,yes,no,2,yes,semi-furnished,53177,Bonn Bad Godesberg
+263000,90,2,1,1,no,no,no,yes,no,2,no,unfurnished,53840,Troisdorf
+263000,111,3,1,1,no,no,no,yes,no,0,yes,unfurnished,50765,Köln Chorweiler
+261000,119,3,1,3,yes,yes,no,yes,no,1,no,unfurnished,53859,Niederkassel
+258000,105,2,2,1,yes,no,no,yes,no,2,no,furnished,51371,Leverkusen
+257000,85,3,1,1,no,no,no,yes,yes,1,no,unfurnished,41462,Neuss
+256000,59,3,2,1,no,no,no,yes,no,2,no,semi-furnished,53121,Bonn Endenich
+255000,108,4,1,1,no,yes,yes,yes,no,2,no,furnished,47445,Moers
+254000,73,1,1,1,no,yes,yes,yes,no,1,no,furnished,44795,Bochum
+253000,50,2,2,1,no,no,no,yes,no,1,no,unfurnished,50937,Köln Suelz
+253000,68,3,1,1,yes,no,no,yes,yes,0,yes,unfurnished,50823,Köln Ehrenfeld
+252000,93,3,1,1,no,no,no,yes,no,1,no,unfurnished,53757,Sankt Augustin
+252000,102,2,1,3,yes,yes,no,yes,no,0,yes,unfurnished,59821,Arnsberg
+252000,69,3,1,1,no,no,yes,yes,no,2,yes,unfurnished,51107,Köln Kalk
+251000,173,5,3,2,yes,no,yes,yes,no,3,no,unfurnished,45881,Gelsenkirchen
+251000,106,3,2,2,no,no,no,yes,no,0,no,unfurnished,45326,Essen Altenessen
+251000,76,1,1,1,no,yes,no,yes,no,2,no,unfurnished,48149,Münster
+249000,103,4,1,1,no,no,yes,no,no,1,no,unfurnished,53913,Swisttal
+249000,130,4,2,1,no,yes,no,yes,no,0,no,unfurnished,47443,Moers
+248000,73,2,2,1,no,yes,no,yes,no,2,no,unfurnished,53177,Bonn Bad Godesberg
+246000,45,2,1,1,no,yes,no,yes,no,0,yes,unfurnished,50825,Köln Ehrenfeld
+245000,79,2,1,1,yes,yes,yes,yes,no,2,no,unfurnished,50169,Kerpen
+244000,110,3,2,3,no,yes,no,yes,no,0,no,unfurnished,44328,Dortmund Scharnhorst
+243000,105,4,1,3,no,yes,no,yes,no,0,yes,unfurnished,57074,Siegen
+243000,76,2,2,1,no,no,no,yes,yes,0,yes,semi-furnished,53424,Remagen
+242000,110,3,2,1,no,yes,no,yes,no,2,no,semi-furnished,32758,Detmold
+242000,101,3,1,1,no,no,no,no,no,0,no,semi-furnished,50171,Kerpen
+241000,74,3,2,1,no,no,no,yes,yes,2,no,unfurnished,50226,Frechen
+239000,110,4,2,1,yes,no,no,no,no,2,no,semi-furnished,52349,Düren
+238000,121,4,2,1,no,no,no,yes,no,2,no,semi-furnished,45883,Gelsenkirchen
+237000,68,2,1,1,no,yes,no,yes,no,1,no,unfurnished,53347,Alfter
+237000,56,2,2,1,no,no,no,no,no,0,no,semi-furnished,40233,Düsseldorf Flingern
+234000,92,2,1,2,no,no,no,yes,yes,1,yes,semi-furnished,51570,Windeck
+232000,87,2,1,1,yes,no,no,yes,no,1,yes,unfurnished,33334,Gütersloh
+232000,99,3,1,1,yes,yes,no,yes,yes,2,no,semi-furnished,53340,Meckenheim
+231000,49,2,1,1,no,no,yes,yes,no,0,no,unfurnished,50670,Köln Innenstadt
+230000,117,3,2,2,no,no,no,no,no,0,no,unfurnished,47058,Duisburg
+229000,115,3,2,1,no,no,yes,yes,no,1,no,semi-furnished,59065,Hamm
+228000,105,2,1,1,yes,yes,yes,yes,no,1,no,unfurnished,58453,Witten
+227000,93,3,1,1,yes,no,yes,yes,no,0,no,unfurnished,53757,Sankt Augustin
+226000,132,3,2,1,yes,yes,yes,yes,no,1,yes,unfurnished,59067,Hamm
+226000,145,3,3,1,no,no,yes,yes,no,1,no,unfurnished,59065,Hamm
+225000,88,3,2,1,no,no,yes,yes,yes,1,no,semi-furnished,50767,Köln Chorweiler
+224000,67,2,2,1,yes,yes,no,yes,no,0,no,furnished,50226,Frechen
+224000,106,2,2,1,yes,no,no,yes,yes,0,yes,furnished,58089,Hagen
+224000,109,3,2,3,no,no,no,yes,no,1,yes,unfurnished,32427,Minden
+223000,80,3,2,1,no,yes,no,yes,no,0,yes,unfurnished,44791,Bochum
+223000,61,2,2,1,yes,yes,no,yes,no,1,no,unfurnished,45130,Essen Zentrum
+220000,94,3,1,1,no,yes,no,yes,no,0,no,unfurnished,44793,Bochum
+219000,82,3,1,1,no,no,no,yes,no,0,yes,semi-furnished,50171,Kerpen
+217000,118,4,2,1,no,no,yes,yes,no,2,yes,semi-furnished,46049,Oberhausen
+217000,93,3,2,1,no,no,yes,yes,no,0,yes,unfurnished,57078,Siegen
+217000,109,3,2,1,yes,no,no,no,no,1,no,unfurnished,46045,Oberhausen
+217000,91,2,2,1,no,no,yes,yes,no,2,no,unfurnished,42855,Remscheid
+216000,90,3,1,2,yes,no,no,yes,no,2,no,unfurnished,51371,Leverkusen
+215000,57,2,1,1,no,no,yes,yes,no,2,yes,semi-furnished,53127,Bonn Hardtberg
+215000,98,3,1,1,no,no,no,yes,no,2,no,unfurnished,59067,Hamm
+215000,99,3,2,2,no,no,no,yes,no,0,yes,semi-furnished,42853,Remscheid
+214000,69,3,1,1,no,yes,no,yes,no,0,no,unfurnished,40880,Ratingen
+214000,65,2,1,1,no,no,no,yes,no,0,yes,unfurnished,51469,Bergisch Gladbach
+213000,99,2,1,3,yes,no,yes,yes,no,1,yes,unfurnished,51570,Windeck
+212000,67,2,1,1,no,no,no,no,no,0,yes,semi-furnished,44135,Dortmund Zentrum
+211000,102,3,2,1,no,yes,no,yes,no,0,no,semi-furnished,32051,Herford
+210000,110,4,2,2,no,no,no,yes,no,1,no,semi-furnished,45329,Essen Altenessen
+210000,38,1,1,1,no,no,no,yes,no,2,no,furnished,53113,Bonn Zentrum
+209000,41,1,1,1,no,no,no,yes,no,2,no,unfurnished,50667,Köln Innenstadt
+207000,59,2,2,1,yes,no,yes,yes,no,1,no,semi-furnished,53175,Bonn Bad Godesberg
+205000,75,2,2,1,no,yes,no,yes,no,0,no,semi-furnished,50321,Brühl
+205000,72,2,1,1,no,no,no,yes,no,0,no,unfurnished,56070,Koblenz
+204000,51,1,1,1,no,no,no,yes,no,1,no,unfurnished,51105,Köln Kalk
+202000,102,3,1,3,no,no,yes,no,no,2,no,unfurnished,45886,Gelsenkirchen
+201000,77,2,1,1,no,no,no,yes,no,1,yes,unfurnished,53804,Much
+201000,46,1,2,1,no,no,no,yes,no,0,yes,unfurnished,53129,Bonn Kessenich
+199000,73,3,1,1,no,no,no,yes,no,1,yes,furnished,50171,Kerpen
+199000,65,2,2,1,no,no,no,yes,no,2,yes,unfurnished,41748,Viersen
+199000,38,1,2,1,no,no,no,yes,no,2,no,unfurnished,53115,Bonn Poppelsdorf
+198000,81,3,1,1,no,no,no,yes,no,0,no,semi-furnished,59063,Hamm
+197000,54,2,2,1,no,no,no,yes,no,2,no,semi-furnished,53757,Sankt Augustin
+197000,51,2,2,1,no,no,no,no,no,1,yes,unfurnished,44135,Dortmund Zentrum
+196000,77,2,1,1,no,yes,no,yes,no,1,no,unfurnished,32427,Minden
+195000,42,2,1,1,no,no,yes,yes,no,1,no,furnished,53343,Wachtberg
+194000,80,2,2,1,yes,no,no,no,no,0,no,unfurnished,50374,Erftstadt
+193000,111,3,2,2,no,yes,no,no,no,1,no,unfurnished,52353,Düren
+191000,108,3,1,1,no,no,no,yes,no,1,no,semi-furnished,42109,Wuppertal
+188000,107,3,1,1,no,no,no,yes,no,0,no,semi-furnished,46049,Oberhausen
+188000,58,1,2,1,yes,no,no,yes,yes,2,yes,semi-furnished,33100,Paderborn
+188000,69,2,2,1,no,no,no,yes,no,2,yes,unfurnished,44137,Dortmund Zentrum
+187000,56,2,2,1,no,no,yes,yes,yes,0,no,semi-furnished,53119,Bonn Tannenbusch
+187000,100,3,1,1,yes,no,no,yes,yes,0,yes,semi-furnished,42859,Remscheid
+185000,89,3,2,1,no,no,yes,yes,no,1,no,unfurnished,44329,Dortmund Scharnhorst
+184000,84,2,2,1,no,no,no,yes,no,2,no,unfurnished,47445,Moers
+184000,39,1,2,1,no,no,yes,no,yes,2,no,unfurnished,53229,Bonn Beuel
+183000,90,2,2,1,no,no,no,yes,no,0,no,unfurnished,53545,Linz am Rhein
+183000,56,2,1,1,no,no,yes,yes,no,1,no,semi-furnished,53119,Bonn Tannenbusch
+182000,95,2,2,1,yes,no,yes,yes,no,1,no,unfurnished,57072,Siegen
+180000,83,2,2,1,yes,no,no,yes,no,1,no,unfurnished,45659,Recklinghausen
+180000,58,2,1,1,no,no,no,yes,no,1,no,furnished,56075,Koblenz
+179000,75,3,2,1,no,yes,no,yes,no,1,no,semi-furnished,57074,Siegen
+179000,69,2,2,1,no,no,no,yes,no,2,no,unfurnished,53721,Siegburg
+179000,82,2,1,1,no,no,no,yes,no,1,no,semi-furnished,56068,Koblenz
+178000,124,4,1,2,no,no,no,no,no,0,no,semi-furnished,45886,Gelsenkirchen
+178000,50,2,1,1,no,yes,no,no,no,0,yes,unfurnished,53721,Siegburg
+176000,57,2,1,1,no,no,no,no,no,2,yes,unfurnished,53347,Alfter
+174000,91,3,1,1,no,no,no,yes,no,2,no,furnished,45886,Gelsenkirchen
+172000,65,3,2,1,no,no,no,yes,no,1,no,unfurnished,53424,Remagen
+172000,30,1,1,1,no,yes,no,yes,no,0,no,unfurnished,53111,Bonn Zentrum
+170000,106,3,2,3,no,yes,no,yes,no,0,no,semi-furnished,45889,Gelsenkirchen
+168000,72,3,2,1,no,yes,yes,no,no,1,no,unfurnished,47441,Moers
+168000,55,1,1,1,no,yes,no,yes,yes,0,yes,unfurnished,33100,Paderborn
+165000,50,2,1,1,no,no,no,yes,no,2,no,unfurnished,53127,Bonn Hardtberg
+164000,58,2,1,1,no,no,no,yes,no,2,no,semi-furnished,44135,Dortmund Zentrum
+163000,61,3,2,1,no,no,no,yes,no,2,no,unfurnished,53119,Bonn Tannenbusch
+161000,109,3,2,2,no,no,no,yes,no,0,yes,unfurnished,46045,Oberhausen
+161000,107,3,1,2,no,no,no,no,no,2,yes,unfurnished,59821,Arnsberg
+159000,77,2,2,1,no,yes,no,yes,no,0,yes,unfurnished,57078,Siegen
+158000,64,2,2,1,no,no,no,yes,no,0,no,unfurnished,47807,Krefeld
+155000,58,2,1,1,yes,yes,no,yes,no,2,yes,unfurnished,41068,Mönchengladbach
+154000,63,1,2,1,yes,no,no,yes,no,0,yes,unfurnished,42277,Wuppertal
+153000,53,1,1,1,no,no,yes,yes,no,1,yes,unfurnished,53859,Niederkassel
+153000,47,2,1,1,no,no,no,yes,no,2,no,semi-furnished,47805,Krefeld
+148000,63,2,1,1,no,yes,no,yes,no,1,no,unfurnished,32049,Herford
+147000,68,3,2,1,no,no,no,yes,no,1,no,unfurnished,44629,Herne
+144000,60,2,2,1,no,no,no,yes,no,0,no,unfurnished,53804,Much
+144000,63,3,2,1,yes,yes,no,yes,no,1,no,unfurnished,51375,Leverkusen
+144000,59,2,2,1,no,no,no,yes,no,2,no,unfurnished,53844,Troisdorf
+143000,83,3,1,1,no,yes,no,yes,no,0,no,unfurnished,51570,Windeck
+142000,94,3,1,1,no,no,no,yes,no,1,no,semi-furnished,58511,Lüdenscheid
+142000,55,1,1,1,no,no,no,yes,yes,1,no,unfurnished,41066,Mönchengladbach
+141000,93,3,2,1,no,no,no,no,no,2,no,furnished,58093,Hagen
+140000,83,2,1,1,no,no,yes,yes,no,2,no,unfurnished,47057,Duisburg
+138000,30,1,1,1,no,no,no,yes,no,2,no,semi-furnished,53115,Bonn Zentrum
+138000,48,2,2,1,no,no,no,yes,yes,1,no,unfurnished,47058,Duisburg
+136000,54,1,1,1,no,no,no,yes,no,0,no,unfurnished,50321,Brühl
+134000,72,2,2,1,no,yes,no,yes,no,1,no,unfurnished,45879,Gelsenkirchen
+133000,44,1,2,1,yes,no,no,yes,no,2,no,semi-furnished,53123,Bonn Duisdorf
+121000,48,1,1,1,yes,no,yes,yes,no,0,no,semi-furnished,50171,Kerpen
+117000,32,1,1,1,no,no,no,yes,no,2,no,furnished,40233,Düsseldorf Flingern
+116000,55,2,2,1,no,no,no,yes,no,1,no,unfurnished,53474,Bad Neuenahr-Ahrweiler
+114000,52,2,2,1,no,no,no,yes,no,2,no,unfurnished,58453,Witten
+114000,35,1,1,1,no,no,yes,yes,no,2,yes,unfurnished,53474,Bad Neuenahr-Ahrweiler
+112000,46,1,2,1,no,no,yes,yes,no,2,yes,furnished,45326,Essen Altenessen
+112000,49,2,2,1,no,no,no,yes,no,1,yes,unfurnished,42107,Wuppertal
+101000,36,1,1,1,yes,no,no,yes,yes,1,no,semi-furnished,53757,Sankt Augustin
+98000,30,2,2,1,no,no,no,yes,no,0,no,unfurnished,45131,Essen Rüttenscheid
+97000,69,2,2,1,no,no,no,yes,no,0,no,furnished,44629,Herne
+95000,58,2,2,1,no,no,no,yes,no,2,no,unfurnished,32427,Minden
+93000,69,2,2,1,no,no,no,yes,no,0,no,semi-furnished,45881,Gelsenkirchen
+82000,48,1,1,1,yes,no,no,yes,no,1,no,unfurnished,52349,Düren
+80000,30,1,1,1,no,no,no,yes,no,0,no,furnished,53859,Niederkassel
+72000,48,1,1,1,no,no,yes,yes,no,2,no,unfurnished,59821,Arnsberg
+69000,46,1,1,1,yes,no,yes,yes,no,1,no,unfurnished,59065,Hamm
+58000,30,1,2,1,no,no,no,yes,no,1,no,unfurnished,46047,Oberhausen
